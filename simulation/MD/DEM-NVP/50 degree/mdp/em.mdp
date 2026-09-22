@@ -1,0 +1,13 @@
+; Energy minimization candidate: review against installed GROMACS and force field.
+integrator               = steep
+nsteps                   = 50000
+emtol                    = 1000.0
+emstep                   = 0.01
+cutoff-scheme            = Verlet
+nstlist                  = 20
+rcoulomb                 = 1.0
+rvdw                     = 1.0
+coulombtype              = PME
+pme-order                = 4
+fourierspacing           = 0.12
+

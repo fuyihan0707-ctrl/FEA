@@ -1,0 +1,44 @@
+{
+  "status": "candidate_not_solver_verified",
+  "generated_utc": "2026-09-20T12:41:33.511835+00:00",
+  "mesh": {
+    "gel_nodes": 3125,
+    "gel_bricks": 2304,
+    "rigid_surface_nodes": 1538,
+    "rigid_surface_shells": 1536,
+    "ball_center_node": 3126,
+    "ball_center_mm": [
+      10.0,
+      10.0,
+      9.5725
+    ],
+    "ball_inertia_tonne_mm2": 0.0005742660500000002,
+    "gel_top_center_node": 2813,
+    "gel_bottom_center_node": 313,
+    "initial_geometric_contact_time_s": 5.049051535669025e-05,
+    "initial_penalty_activation_estimate_s": 3.786788651751769e-05,
+    "initial_ball_kinetic_energy_N_mm": 39.226575249
+  },
+  "source_sha256": {
+    "config/sample1_dryrun.json": "bdc96ad39331774fcb046b62dc383e6af75a148437ed30e059b6bb2c28c5b320",
+    "derived/sample1_material/sample1_law69_compression_calibration.csv": "acb0b6c3f5926a13060b56ccb26da15d6e88248f5b4dcf899cc3bd2e7efcf66a",
+    "scripts/build_sample1_candidate.py": "c76ce99e10f964165a17685af0b992b8e103c38d807ab01fb853a758258ce077",
+    "scripts/check_sample1_candidate.py": "d0716f09c97df95012b460482aaeb49d991a5a3b06942ca3c921776a16b36140",
+    "sample1-compress.rtf": "0411f839bc7ed43abe763dadab8873e30187c0113da858759992af0f4451ce5e",
+    "sample1-strain.rtf": "06b44bbd5fe2e2188b9707dbc5ab4e56c8cf4539ef25ff984b14e5c24c97c595"
+  },
+  "artifact_sha256": {
+    "sample1_smoke_0000.rad": "f5c62af589cc5cd97e76d944e08c854b061cdb073de050898624a6444b8eb104",
+    "sample1_smoke_0001.rad": "2a684f47123b524757542c27f069b5f96903743c569592c04883c04ffb99c22b",
+    "frozen_config.json": "bdc96ad39331774fcb046b62dc383e6af75a148437ed30e059b6bb2c28c5b320",
+    "material_curve.csv": "acb0b6c3f5926a13060b56ccb26da15d6e88248f5b4dcf899cc3bd2e7efcf66a"
+  },
+  "limitations": [
+    "Linux Starter fit and keyword checks pending",
+    "No Engine execution",
+    "No physical gel dissipation or rate dependence calibrated",
+    "40 percent compression is an acceptance criterion, not an automatic stop",
+    "0.5 ms may not include first maximum compression",
+    "TYPE7 contact gap, damping and rigid surface resolution require sensitivity checks"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "status": "analytical_preflight_only_no_OpenRadioss_Starter_or_Engine_run",
+  "specimen_mm": [
+    20,
+    20,
+    1
+  ],
+  "density_g_cm3": 1.1,
+  "poisson_ratio": 0.49,
+  "specimen_mass_g": 0.44000000000000006,
+  "support_confirmed": "four_edges_clamped_center_unsupported",
+  "proposed_clamp_width_mm": 2,
+  "proposed_free_window_mm": [
+    16,
+    16
+  ],
+  "clamp_width_status": "modeling_assumption_not_user_measured",
+  "requested_impactor": {
+    "diameter_mm": 16.945481182380632,
+    "mass_g": 20.0,
+    "description": "20 g solid steel sphere; diameter inferred from assumed steel density after user correction."
+  },
+  "assumed_steel_density_g_cm3": 7.85,
+  "consistent_10mm_solid_ball_mass_g": 4.110250388446645,
+  "consistent_20g_solid_ball_diameter_mm": 16.945481182380632,
+  "recommended_impactor": {
+    "diameter_mm": 16.945481182380632,
+    "mass_g": 20,
+    "description": "Solid steel sphere modeled as rigid, with consistent mass and geometry."
+  },
+  "drop_height_m": 0.2,
+  "speed_at_first_contact_m_s": 1.9805706248452741,
+  "free_fall_time_s": 0.20196199771025522,
+  "energy_20g_J": 0.0392266,
+  "energy_consistent_10mm_steel_ball_J": 0.008061557394372058,
+  "strain_control": {
+    "definition": "Principal engineering strains from stretch eigenvalues: epsilon_i=lambda_i-1.",
+    "conservative_first_pilot_stretch_range": [
+      0.6,
+      1.4
+    ],
+    "warning_stretch_range": [
+      0.65,
+      1.35
+    ],
+    "enforcement": "Monitor integration-point stretches; stop or reduce load before exceeding the range. Never clip material strain or artificially harden to enforce a cap.",
+    "note": "The tensile upper cap is a conservative user-requested 40% deformation limit, not the tensile test range. Central deflection divided by film thickness is not material compression strain for a suspended film."
+  },
+  "recommended_first_pilot": {
+    "type": "displacement_controlled_spherical_indentation",
+    "candidate_indenter_displacements_mm": [
+      0.1,
+      0.2,
+      0.3
+    ],
+    "selection": "Only retain stages passing local strain and quasi-static checks; extend only if appropriate.",
+    "loading": "Smooth imposed displacement with velocity and acceleration starting at zero; gravity drop is not combined with this loading.",
+    "note": "This is a controlled indentation comparison, not a 20cm drop-impact simulation; striker mass does not determine the quasi-static stress state."
+  },
+  "dynamic_followup": {
+    "candidate_speeds_m_s": [
+      0.1,
+      0.3,
+      0.5,
+      1.0,
+      1.9805706248452741
+    ],
+    "instruction": "Sequential pilot ladder only: stop increasing speed when local strains or stability fail. No prediction that any listed speed is safe.",
+    "start": "Small gap above film with downward initial velocity; v=0 at contact without another load does not represent a 20cm drop."
+  },
+  "mesh_proposal": {
+    "solid_type": "8-node bricks with near-incompressibility treatment",
+    "thickness_layers_initial": 6,
+    "central_inplane_size_mm_initial": 0.2,
+    "convergence": "Refine contact zone and thickness; compare stress fields and reaction force."
+  },
+  "outputs": [
+    "front_stress_map",
+    "central_section_stress_map"
+  ],
+  "internal_checks": [
+    "local_strain_range",
+    "energy_balance",
+    "contact_penetration",
+    "mesh_sensitivity"
+  ]
+}

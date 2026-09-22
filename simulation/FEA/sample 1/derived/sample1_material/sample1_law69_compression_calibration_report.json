@@ -1,0 +1,40 @@
+{
+  "status": "candidate_curve_written_not_starter_verified",
+  "source_csv": "derived/sample1_material/sample1_compression_zeroed.csv",
+  "source_rows_within_0_to_0p40_compression": 2845,
+  "selected_measured_range": {
+    "compression_strain_mm_per_mm": [
+      0.0,
+      0.4
+    ],
+    "stress_mpa": [
+      0.0,
+      34.358881764705885
+    ]
+  },
+  "transformations": [
+    "Rows beyond 0.40 compression are outside this candidate calibration scope, except for the first measured point above 0.40 used only to interpolate the 0.40 endpoint; no source file was changed.",
+    "Pooled-adjacent-violators isotonic regression made stress nondecreasing with compression strain.",
+    "Linear interpolation resampled the monotonic curve at 0.005 engineering-strain intervals.",
+    "Compression strain and stress were negated and reversed for LAW69 sign convention."
+  ],
+  "isotonic_correction": {
+    "source_rows_changed": 68,
+    "maximum_absolute_stress_change_mpa": 0.001776428571428572,
+    "mean_absolute_stress_change_mpa": 7.896189510331193e-06
+  },
+  "output": {
+    "path": "derived/sample1_material/sample1_law69_compression_calibration.csv",
+    "row_count": 81,
+    "columns": [
+      "engineering_strain_mm_per_mm",
+      "engineering_stress_mpa"
+    ],
+    "sign_convention": "negative values are compression; strain increases from -0.40 to 0.00"
+  },
+  "limitations": [
+    "This curve is compression-priority and does not validate tensile response.",
+    "It contains no unloading, hysteresis, failure, or strain-rate calibration.",
+    "OpenRadioss Starter fit error and one-element reproduction remain required checks."
+  ]
+}

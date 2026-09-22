@@ -1,0 +1,8135 @@
+{
+  "schema_version": 1,
+  "status": "chemical_connectivity_specification_not_force_field",
+  "case_id": "dem_nvp_alt_10x4_323K_60wt",
+  "molecule_name": "DEMNVP10",
+  "chain_termini": "hydrogen_capped",
+  "sequence": [
+    "DEM",
+    "NVP",
+    "DEM",
+    "NVP",
+    "DEM",
+    "NVP",
+    "DEM",
+    "NVP",
+    "DEM",
+    "NVP",
+    "DEM",
+    "NVP",
+    "DEM",
+    "NVP",
+    "DEM",
+    "NVP",
+    "DEM",
+    "NVP",
+    "DEM",
+    "NVP"
+  ],
+  "backbone_description": "DEM B1-B2 then NVP V1-V2; each NVP V2 bonds to next DEM B1.",
+  "monomer_reference_smiles": {
+    "DEM": "CCOC(=O)/C=C\\C(=O)OCC",
+    "NVP": "C=CN1CCCC1=O"
+  },
+  "atom_count": 412,
+  "bond_count": 421,
+  "atoms": [
+    {
+      "index": 1,
+      "name": "D01_B1",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM backbone carbon 1",
+      "repeat_pair": 1,
+      "unit": "DEM"
+    },
+    {
+      "index": 2,
+      "name": "D01_HB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM backbone hydrogen",
+      "repeat_pair": 1,
+      "unit": "DEM"
+    },
+    {
+      "index": 3,
+      "name": "D01_B2",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM backbone carbon 2",
+      "repeat_pair": 1,
+      "unit": "DEM"
+    },
+    {
+      "index": 4,
+      "name": "D01_HB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM backbone hydrogen",
+      "repeat_pair": 1,
+      "unit": "DEM"
+    },
+    {
+      "index": 5,
+      "name": "D01_CL",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl carbon",
+      "repeat_pair": 1,
+      "unit": "DEM"
+    },
+    {
+      "index": 6,
+      "name": "D01_OLC",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl oxygen",
+      "repeat_pair": 1,
+      "unit": "DEM"
+    },
+    {
+      "index": 7,
+      "name": "D01_OLE",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester alkoxy oxygen",
+      "repeat_pair": 1,
+      "unit": "DEM"
+    },
+    {
+      "index": 8,
+      "name": "D01_ELA",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha carbon",
+      "repeat_pair": 1,
+      "unit": "DEM"
+    },
+    {
+      "index": 9,
+      "name": "D01_ELB",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta carbon",
+      "repeat_pair": 1,
+      "unit": "DEM"
+    },
+    {
+      "index": 10,
+      "name": "D01_HLA1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 1,
+      "unit": "DEM"
+    },
+    {
+      "index": 11,
+      "name": "D01_HLA2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 1,
+      "unit": "DEM"
+    },
+    {
+      "index": 12,
+      "name": "D01_HLB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 1,
+      "unit": "DEM"
+    },
+    {
+      "index": 13,
+      "name": "D01_HLB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 1,
+      "unit": "DEM"
+    },
+    {
+      "index": 14,
+      "name": "D01_HLB3",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 1,
+      "unit": "DEM"
+    },
+    {
+      "index": 15,
+      "name": "D01_CR",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl carbon",
+      "repeat_pair": 1,
+      "unit": "DEM"
+    },
+    {
+      "index": 16,
+      "name": "D01_ORC",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl oxygen",
+      "repeat_pair": 1,
+      "unit": "DEM"
+    },
+    {
+      "index": 17,
+      "name": "D01_ORE",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester alkoxy oxygen",
+      "repeat_pair": 1,
+      "unit": "DEM"
+    },
+    {
+      "index": 18,
+      "name": "D01_ERA",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha carbon",
+      "repeat_pair": 1,
+      "unit": "DEM"
+    },
+    {
+      "index": 19,
+      "name": "D01_ERB",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta carbon",
+      "repeat_pair": 1,
+      "unit": "DEM"
+    },
+    {
+      "index": 20,
+      "name": "D01_HRA1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 1,
+      "unit": "DEM"
+    },
+    {
+      "index": 21,
+      "name": "D01_HRA2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 1,
+      "unit": "DEM"
+    },
+    {
+      "index": 22,
+      "name": "D01_HRB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 1,
+      "unit": "DEM"
+    },
+    {
+      "index": 23,
+      "name": "D01_HRB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 1,
+      "unit": "DEM"
+    },
+    {
+      "index": 24,
+      "name": "D01_HRB3",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 1,
+      "unit": "DEM"
+    },
+    {
+      "index": 25,
+      "name": "N01_V1",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP backbone carbon 1",
+      "repeat_pair": 1,
+      "unit": "NVP"
+    },
+    {
+      "index": 26,
+      "name": "N01_V2",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP backbone carbon 2",
+      "repeat_pair": 1,
+      "unit": "NVP"
+    },
+    {
+      "index": 27,
+      "name": "N01_N",
+      "element": "N",
+      "formal_charge_e": 0,
+      "role": "NVP lactam nitrogen",
+      "repeat_pair": 1,
+      "unit": "NVP"
+    },
+    {
+      "index": 28,
+      "name": "N01_C0",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP lactam carbonyl carbon",
+      "repeat_pair": 1,
+      "unit": "NVP"
+    },
+    {
+      "index": 29,
+      "name": "N01_O0",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "NVP lactam carbonyl oxygen",
+      "repeat_pair": 1,
+      "unit": "NVP"
+    },
+    {
+      "index": 30,
+      "name": "N01_C3",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 1,
+      "unit": "NVP"
+    },
+    {
+      "index": 31,
+      "name": "N01_C4",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 1,
+      "unit": "NVP"
+    },
+    {
+      "index": 32,
+      "name": "N01_C5",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 1,
+      "unit": "NVP"
+    },
+    {
+      "index": 33,
+      "name": "N01_HV11",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methylene hydrogen",
+      "repeat_pair": 1,
+      "unit": "NVP"
+    },
+    {
+      "index": 34,
+      "name": "N01_HV12",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methylene hydrogen",
+      "repeat_pair": 1,
+      "unit": "NVP"
+    },
+    {
+      "index": 35,
+      "name": "N01_HV2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methine hydrogen",
+      "repeat_pair": 1,
+      "unit": "NVP"
+    },
+    {
+      "index": 36,
+      "name": "N01_H31",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 1,
+      "unit": "NVP"
+    },
+    {
+      "index": 37,
+      "name": "N01_H32",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 1,
+      "unit": "NVP"
+    },
+    {
+      "index": 38,
+      "name": "N01_H41",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 1,
+      "unit": "NVP"
+    },
+    {
+      "index": 39,
+      "name": "N01_H42",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 1,
+      "unit": "NVP"
+    },
+    {
+      "index": 40,
+      "name": "N01_H51",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 1,
+      "unit": "NVP"
+    },
+    {
+      "index": 41,
+      "name": "N01_H52",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 1,
+      "unit": "NVP"
+    },
+    {
+      "index": 42,
+      "name": "D02_B1",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM backbone carbon 1",
+      "repeat_pair": 2,
+      "unit": "DEM"
+    },
+    {
+      "index": 43,
+      "name": "D02_HB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM backbone hydrogen",
+      "repeat_pair": 2,
+      "unit": "DEM"
+    },
+    {
+      "index": 44,
+      "name": "D02_B2",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM backbone carbon 2",
+      "repeat_pair": 2,
+      "unit": "DEM"
+    },
+    {
+      "index": 45,
+      "name": "D02_HB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM backbone hydrogen",
+      "repeat_pair": 2,
+      "unit": "DEM"
+    },
+    {
+      "index": 46,
+      "name": "D02_CL",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl carbon",
+      "repeat_pair": 2,
+      "unit": "DEM"
+    },
+    {
+      "index": 47,
+      "name": "D02_OLC",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl oxygen",
+      "repeat_pair": 2,
+      "unit": "DEM"
+    },
+    {
+      "index": 48,
+      "name": "D02_OLE",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester alkoxy oxygen",
+      "repeat_pair": 2,
+      "unit": "DEM"
+    },
+    {
+      "index": 49,
+      "name": "D02_ELA",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha carbon",
+      "repeat_pair": 2,
+      "unit": "DEM"
+    },
+    {
+      "index": 50,
+      "name": "D02_ELB",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta carbon",
+      "repeat_pair": 2,
+      "unit": "DEM"
+    },
+    {
+      "index": 51,
+      "name": "D02_HLA1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 2,
+      "unit": "DEM"
+    },
+    {
+      "index": 52,
+      "name": "D02_HLA2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 2,
+      "unit": "DEM"
+    },
+    {
+      "index": 53,
+      "name": "D02_HLB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 2,
+      "unit": "DEM"
+    },
+    {
+      "index": 54,
+      "name": "D02_HLB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 2,
+      "unit": "DEM"
+    },
+    {
+      "index": 55,
+      "name": "D02_HLB3",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 2,
+      "unit": "DEM"
+    },
+    {
+      "index": 56,
+      "name": "D02_CR",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl carbon",
+      "repeat_pair": 2,
+      "unit": "DEM"
+    },
+    {
+      "index": 57,
+      "name": "D02_ORC",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl oxygen",
+      "repeat_pair": 2,
+      "unit": "DEM"
+    },
+    {
+      "index": 58,
+      "name": "D02_ORE",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester alkoxy oxygen",
+      "repeat_pair": 2,
+      "unit": "DEM"
+    },
+    {
+      "index": 59,
+      "name": "D02_ERA",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha carbon",
+      "repeat_pair": 2,
+      "unit": "DEM"
+    },
+    {
+      "index": 60,
+      "name": "D02_ERB",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta carbon",
+      "repeat_pair": 2,
+      "unit": "DEM"
+    },
+    {
+      "index": 61,
+      "name": "D02_HRA1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 2,
+      "unit": "DEM"
+    },
+    {
+      "index": 62,
+      "name": "D02_HRA2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 2,
+      "unit": "DEM"
+    },
+    {
+      "index": 63,
+      "name": "D02_HRB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 2,
+      "unit": "DEM"
+    },
+    {
+      "index": 64,
+      "name": "D02_HRB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 2,
+      "unit": "DEM"
+    },
+    {
+      "index": 65,
+      "name": "D02_HRB3",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 2,
+      "unit": "DEM"
+    },
+    {
+      "index": 66,
+      "name": "N02_V1",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP backbone carbon 1",
+      "repeat_pair": 2,
+      "unit": "NVP"
+    },
+    {
+      "index": 67,
+      "name": "N02_V2",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP backbone carbon 2",
+      "repeat_pair": 2,
+      "unit": "NVP"
+    },
+    {
+      "index": 68,
+      "name": "N02_N",
+      "element": "N",
+      "formal_charge_e": 0,
+      "role": "NVP lactam nitrogen",
+      "repeat_pair": 2,
+      "unit": "NVP"
+    },
+    {
+      "index": 69,
+      "name": "N02_C0",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP lactam carbonyl carbon",
+      "repeat_pair": 2,
+      "unit": "NVP"
+    },
+    {
+      "index": 70,
+      "name": "N02_O0",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "NVP lactam carbonyl oxygen",
+      "repeat_pair": 2,
+      "unit": "NVP"
+    },
+    {
+      "index": 71,
+      "name": "N02_C3",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 2,
+      "unit": "NVP"
+    },
+    {
+      "index": 72,
+      "name": "N02_C4",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 2,
+      "unit": "NVP"
+    },
+    {
+      "index": 73,
+      "name": "N02_C5",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 2,
+      "unit": "NVP"
+    },
+    {
+      "index": 74,
+      "name": "N02_HV11",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methylene hydrogen",
+      "repeat_pair": 2,
+      "unit": "NVP"
+    },
+    {
+      "index": 75,
+      "name": "N02_HV12",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methylene hydrogen",
+      "repeat_pair": 2,
+      "unit": "NVP"
+    },
+    {
+      "index": 76,
+      "name": "N02_HV2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methine hydrogen",
+      "repeat_pair": 2,
+      "unit": "NVP"
+    },
+    {
+      "index": 77,
+      "name": "N02_H31",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 2,
+      "unit": "NVP"
+    },
+    {
+      "index": 78,
+      "name": "N02_H32",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 2,
+      "unit": "NVP"
+    },
+    {
+      "index": 79,
+      "name": "N02_H41",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 2,
+      "unit": "NVP"
+    },
+    {
+      "index": 80,
+      "name": "N02_H42",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 2,
+      "unit": "NVP"
+    },
+    {
+      "index": 81,
+      "name": "N02_H51",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 2,
+      "unit": "NVP"
+    },
+    {
+      "index": 82,
+      "name": "N02_H52",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 2,
+      "unit": "NVP"
+    },
+    {
+      "index": 83,
+      "name": "D03_B1",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM backbone carbon 1",
+      "repeat_pair": 3,
+      "unit": "DEM"
+    },
+    {
+      "index": 84,
+      "name": "D03_HB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM backbone hydrogen",
+      "repeat_pair": 3,
+      "unit": "DEM"
+    },
+    {
+      "index": 85,
+      "name": "D03_B2",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM backbone carbon 2",
+      "repeat_pair": 3,
+      "unit": "DEM"
+    },
+    {
+      "index": 86,
+      "name": "D03_HB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM backbone hydrogen",
+      "repeat_pair": 3,
+      "unit": "DEM"
+    },
+    {
+      "index": 87,
+      "name": "D03_CL",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl carbon",
+      "repeat_pair": 3,
+      "unit": "DEM"
+    },
+    {
+      "index": 88,
+      "name": "D03_OLC",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl oxygen",
+      "repeat_pair": 3,
+      "unit": "DEM"
+    },
+    {
+      "index": 89,
+      "name": "D03_OLE",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester alkoxy oxygen",
+      "repeat_pair": 3,
+      "unit": "DEM"
+    },
+    {
+      "index": 90,
+      "name": "D03_ELA",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha carbon",
+      "repeat_pair": 3,
+      "unit": "DEM"
+    },
+    {
+      "index": 91,
+      "name": "D03_ELB",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta carbon",
+      "repeat_pair": 3,
+      "unit": "DEM"
+    },
+    {
+      "index": 92,
+      "name": "D03_HLA1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 3,
+      "unit": "DEM"
+    },
+    {
+      "index": 93,
+      "name": "D03_HLA2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 3,
+      "unit": "DEM"
+    },
+    {
+      "index": 94,
+      "name": "D03_HLB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 3,
+      "unit": "DEM"
+    },
+    {
+      "index": 95,
+      "name": "D03_HLB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 3,
+      "unit": "DEM"
+    },
+    {
+      "index": 96,
+      "name": "D03_HLB3",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 3,
+      "unit": "DEM"
+    },
+    {
+      "index": 97,
+      "name": "D03_CR",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl carbon",
+      "repeat_pair": 3,
+      "unit": "DEM"
+    },
+    {
+      "index": 98,
+      "name": "D03_ORC",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl oxygen",
+      "repeat_pair": 3,
+      "unit": "DEM"
+    },
+    {
+      "index": 99,
+      "name": "D03_ORE",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester alkoxy oxygen",
+      "repeat_pair": 3,
+      "unit": "DEM"
+    },
+    {
+      "index": 100,
+      "name": "D03_ERA",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha carbon",
+      "repeat_pair": 3,
+      "unit": "DEM"
+    },
+    {
+      "index": 101,
+      "name": "D03_ERB",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta carbon",
+      "repeat_pair": 3,
+      "unit": "DEM"
+    },
+    {
+      "index": 102,
+      "name": "D03_HRA1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 3,
+      "unit": "DEM"
+    },
+    {
+      "index": 103,
+      "name": "D03_HRA2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 3,
+      "unit": "DEM"
+    },
+    {
+      "index": 104,
+      "name": "D03_HRB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 3,
+      "unit": "DEM"
+    },
+    {
+      "index": 105,
+      "name": "D03_HRB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 3,
+      "unit": "DEM"
+    },
+    {
+      "index": 106,
+      "name": "D03_HRB3",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 3,
+      "unit": "DEM"
+    },
+    {
+      "index": 107,
+      "name": "N03_V1",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP backbone carbon 1",
+      "repeat_pair": 3,
+      "unit": "NVP"
+    },
+    {
+      "index": 108,
+      "name": "N03_V2",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP backbone carbon 2",
+      "repeat_pair": 3,
+      "unit": "NVP"
+    },
+    {
+      "index": 109,
+      "name": "N03_N",
+      "element": "N",
+      "formal_charge_e": 0,
+      "role": "NVP lactam nitrogen",
+      "repeat_pair": 3,
+      "unit": "NVP"
+    },
+    {
+      "index": 110,
+      "name": "N03_C0",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP lactam carbonyl carbon",
+      "repeat_pair": 3,
+      "unit": "NVP"
+    },
+    {
+      "index": 111,
+      "name": "N03_O0",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "NVP lactam carbonyl oxygen",
+      "repeat_pair": 3,
+      "unit": "NVP"
+    },
+    {
+      "index": 112,
+      "name": "N03_C3",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 3,
+      "unit": "NVP"
+    },
+    {
+      "index": 113,
+      "name": "N03_C4",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 3,
+      "unit": "NVP"
+    },
+    {
+      "index": 114,
+      "name": "N03_C5",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 3,
+      "unit": "NVP"
+    },
+    {
+      "index": 115,
+      "name": "N03_HV11",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methylene hydrogen",
+      "repeat_pair": 3,
+      "unit": "NVP"
+    },
+    {
+      "index": 116,
+      "name": "N03_HV12",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methylene hydrogen",
+      "repeat_pair": 3,
+      "unit": "NVP"
+    },
+    {
+      "index": 117,
+      "name": "N03_HV2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methine hydrogen",
+      "repeat_pair": 3,
+      "unit": "NVP"
+    },
+    {
+      "index": 118,
+      "name": "N03_H31",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 3,
+      "unit": "NVP"
+    },
+    {
+      "index": 119,
+      "name": "N03_H32",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 3,
+      "unit": "NVP"
+    },
+    {
+      "index": 120,
+      "name": "N03_H41",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 3,
+      "unit": "NVP"
+    },
+    {
+      "index": 121,
+      "name": "N03_H42",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 3,
+      "unit": "NVP"
+    },
+    {
+      "index": 122,
+      "name": "N03_H51",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 3,
+      "unit": "NVP"
+    },
+    {
+      "index": 123,
+      "name": "N03_H52",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 3,
+      "unit": "NVP"
+    },
+    {
+      "index": 124,
+      "name": "D04_B1",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM backbone carbon 1",
+      "repeat_pair": 4,
+      "unit": "DEM"
+    },
+    {
+      "index": 125,
+      "name": "D04_HB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM backbone hydrogen",
+      "repeat_pair": 4,
+      "unit": "DEM"
+    },
+    {
+      "index": 126,
+      "name": "D04_B2",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM backbone carbon 2",
+      "repeat_pair": 4,
+      "unit": "DEM"
+    },
+    {
+      "index": 127,
+      "name": "D04_HB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM backbone hydrogen",
+      "repeat_pair": 4,
+      "unit": "DEM"
+    },
+    {
+      "index": 128,
+      "name": "D04_CL",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl carbon",
+      "repeat_pair": 4,
+      "unit": "DEM"
+    },
+    {
+      "index": 129,
+      "name": "D04_OLC",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl oxygen",
+      "repeat_pair": 4,
+      "unit": "DEM"
+    },
+    {
+      "index": 130,
+      "name": "D04_OLE",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester alkoxy oxygen",
+      "repeat_pair": 4,
+      "unit": "DEM"
+    },
+    {
+      "index": 131,
+      "name": "D04_ELA",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha carbon",
+      "repeat_pair": 4,
+      "unit": "DEM"
+    },
+    {
+      "index": 132,
+      "name": "D04_ELB",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta carbon",
+      "repeat_pair": 4,
+      "unit": "DEM"
+    },
+    {
+      "index": 133,
+      "name": "D04_HLA1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 4,
+      "unit": "DEM"
+    },
+    {
+      "index": 134,
+      "name": "D04_HLA2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 4,
+      "unit": "DEM"
+    },
+    {
+      "index": 135,
+      "name": "D04_HLB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 4,
+      "unit": "DEM"
+    },
+    {
+      "index": 136,
+      "name": "D04_HLB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 4,
+      "unit": "DEM"
+    },
+    {
+      "index": 137,
+      "name": "D04_HLB3",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 4,
+      "unit": "DEM"
+    },
+    {
+      "index": 138,
+      "name": "D04_CR",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl carbon",
+      "repeat_pair": 4,
+      "unit": "DEM"
+    },
+    {
+      "index": 139,
+      "name": "D04_ORC",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl oxygen",
+      "repeat_pair": 4,
+      "unit": "DEM"
+    },
+    {
+      "index": 140,
+      "name": "D04_ORE",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester alkoxy oxygen",
+      "repeat_pair": 4,
+      "unit": "DEM"
+    },
+    {
+      "index": 141,
+      "name": "D04_ERA",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha carbon",
+      "repeat_pair": 4,
+      "unit": "DEM"
+    },
+    {
+      "index": 142,
+      "name": "D04_ERB",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta carbon",
+      "repeat_pair": 4,
+      "unit": "DEM"
+    },
+    {
+      "index": 143,
+      "name": "D04_HRA1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 4,
+      "unit": "DEM"
+    },
+    {
+      "index": 144,
+      "name": "D04_HRA2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 4,
+      "unit": "DEM"
+    },
+    {
+      "index": 145,
+      "name": "D04_HRB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 4,
+      "unit": "DEM"
+    },
+    {
+      "index": 146,
+      "name": "D04_HRB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 4,
+      "unit": "DEM"
+    },
+    {
+      "index": 147,
+      "name": "D04_HRB3",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 4,
+      "unit": "DEM"
+    },
+    {
+      "index": 148,
+      "name": "N04_V1",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP backbone carbon 1",
+      "repeat_pair": 4,
+      "unit": "NVP"
+    },
+    {
+      "index": 149,
+      "name": "N04_V2",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP backbone carbon 2",
+      "repeat_pair": 4,
+      "unit": "NVP"
+    },
+    {
+      "index": 150,
+      "name": "N04_N",
+      "element": "N",
+      "formal_charge_e": 0,
+      "role": "NVP lactam nitrogen",
+      "repeat_pair": 4,
+      "unit": "NVP"
+    },
+    {
+      "index": 151,
+      "name": "N04_C0",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP lactam carbonyl carbon",
+      "repeat_pair": 4,
+      "unit": "NVP"
+    },
+    {
+      "index": 152,
+      "name": "N04_O0",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "NVP lactam carbonyl oxygen",
+      "repeat_pair": 4,
+      "unit": "NVP"
+    },
+    {
+      "index": 153,
+      "name": "N04_C3",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 4,
+      "unit": "NVP"
+    },
+    {
+      "index": 154,
+      "name": "N04_C4",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 4,
+      "unit": "NVP"
+    },
+    {
+      "index": 155,
+      "name": "N04_C5",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 4,
+      "unit": "NVP"
+    },
+    {
+      "index": 156,
+      "name": "N04_HV11",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methylene hydrogen",
+      "repeat_pair": 4,
+      "unit": "NVP"
+    },
+    {
+      "index": 157,
+      "name": "N04_HV12",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methylene hydrogen",
+      "repeat_pair": 4,
+      "unit": "NVP"
+    },
+    {
+      "index": 158,
+      "name": "N04_HV2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methine hydrogen",
+      "repeat_pair": 4,
+      "unit": "NVP"
+    },
+    {
+      "index": 159,
+      "name": "N04_H31",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 4,
+      "unit": "NVP"
+    },
+    {
+      "index": 160,
+      "name": "N04_H32",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 4,
+      "unit": "NVP"
+    },
+    {
+      "index": 161,
+      "name": "N04_H41",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 4,
+      "unit": "NVP"
+    },
+    {
+      "index": 162,
+      "name": "N04_H42",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 4,
+      "unit": "NVP"
+    },
+    {
+      "index": 163,
+      "name": "N04_H51",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 4,
+      "unit": "NVP"
+    },
+    {
+      "index": 164,
+      "name": "N04_H52",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 4,
+      "unit": "NVP"
+    },
+    {
+      "index": 165,
+      "name": "D05_B1",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM backbone carbon 1",
+      "repeat_pair": 5,
+      "unit": "DEM"
+    },
+    {
+      "index": 166,
+      "name": "D05_HB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM backbone hydrogen",
+      "repeat_pair": 5,
+      "unit": "DEM"
+    },
+    {
+      "index": 167,
+      "name": "D05_B2",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM backbone carbon 2",
+      "repeat_pair": 5,
+      "unit": "DEM"
+    },
+    {
+      "index": 168,
+      "name": "D05_HB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM backbone hydrogen",
+      "repeat_pair": 5,
+      "unit": "DEM"
+    },
+    {
+      "index": 169,
+      "name": "D05_CL",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl carbon",
+      "repeat_pair": 5,
+      "unit": "DEM"
+    },
+    {
+      "index": 170,
+      "name": "D05_OLC",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl oxygen",
+      "repeat_pair": 5,
+      "unit": "DEM"
+    },
+    {
+      "index": 171,
+      "name": "D05_OLE",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester alkoxy oxygen",
+      "repeat_pair": 5,
+      "unit": "DEM"
+    },
+    {
+      "index": 172,
+      "name": "D05_ELA",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha carbon",
+      "repeat_pair": 5,
+      "unit": "DEM"
+    },
+    {
+      "index": 173,
+      "name": "D05_ELB",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta carbon",
+      "repeat_pair": 5,
+      "unit": "DEM"
+    },
+    {
+      "index": 174,
+      "name": "D05_HLA1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 5,
+      "unit": "DEM"
+    },
+    {
+      "index": 175,
+      "name": "D05_HLA2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 5,
+      "unit": "DEM"
+    },
+    {
+      "index": 176,
+      "name": "D05_HLB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 5,
+      "unit": "DEM"
+    },
+    {
+      "index": 177,
+      "name": "D05_HLB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 5,
+      "unit": "DEM"
+    },
+    {
+      "index": 178,
+      "name": "D05_HLB3",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 5,
+      "unit": "DEM"
+    },
+    {
+      "index": 179,
+      "name": "D05_CR",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl carbon",
+      "repeat_pair": 5,
+      "unit": "DEM"
+    },
+    {
+      "index": 180,
+      "name": "D05_ORC",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl oxygen",
+      "repeat_pair": 5,
+      "unit": "DEM"
+    },
+    {
+      "index": 181,
+      "name": "D05_ORE",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester alkoxy oxygen",
+      "repeat_pair": 5,
+      "unit": "DEM"
+    },
+    {
+      "index": 182,
+      "name": "D05_ERA",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha carbon",
+      "repeat_pair": 5,
+      "unit": "DEM"
+    },
+    {
+      "index": 183,
+      "name": "D05_ERB",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta carbon",
+      "repeat_pair": 5,
+      "unit": "DEM"
+    },
+    {
+      "index": 184,
+      "name": "D05_HRA1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 5,
+      "unit": "DEM"
+    },
+    {
+      "index": 185,
+      "name": "D05_HRA2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 5,
+      "unit": "DEM"
+    },
+    {
+      "index": 186,
+      "name": "D05_HRB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 5,
+      "unit": "DEM"
+    },
+    {
+      "index": 187,
+      "name": "D05_HRB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 5,
+      "unit": "DEM"
+    },
+    {
+      "index": 188,
+      "name": "D05_HRB3",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 5,
+      "unit": "DEM"
+    },
+    {
+      "index": 189,
+      "name": "N05_V1",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP backbone carbon 1",
+      "repeat_pair": 5,
+      "unit": "NVP"
+    },
+    {
+      "index": 190,
+      "name": "N05_V2",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP backbone carbon 2",
+      "repeat_pair": 5,
+      "unit": "NVP"
+    },
+    {
+      "index": 191,
+      "name": "N05_N",
+      "element": "N",
+      "formal_charge_e": 0,
+      "role": "NVP lactam nitrogen",
+      "repeat_pair": 5,
+      "unit": "NVP"
+    },
+    {
+      "index": 192,
+      "name": "N05_C0",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP lactam carbonyl carbon",
+      "repeat_pair": 5,
+      "unit": "NVP"
+    },
+    {
+      "index": 193,
+      "name": "N05_O0",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "NVP lactam carbonyl oxygen",
+      "repeat_pair": 5,
+      "unit": "NVP"
+    },
+    {
+      "index": 194,
+      "name": "N05_C3",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 5,
+      "unit": "NVP"
+    },
+    {
+      "index": 195,
+      "name": "N05_C4",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 5,
+      "unit": "NVP"
+    },
+    {
+      "index": 196,
+      "name": "N05_C5",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 5,
+      "unit": "NVP"
+    },
+    {
+      "index": 197,
+      "name": "N05_HV11",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methylene hydrogen",
+      "repeat_pair": 5,
+      "unit": "NVP"
+    },
+    {
+      "index": 198,
+      "name": "N05_HV12",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methylene hydrogen",
+      "repeat_pair": 5,
+      "unit": "NVP"
+    },
+    {
+      "index": 199,
+      "name": "N05_HV2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methine hydrogen",
+      "repeat_pair": 5,
+      "unit": "NVP"
+    },
+    {
+      "index": 200,
+      "name": "N05_H31",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 5,
+      "unit": "NVP"
+    },
+    {
+      "index": 201,
+      "name": "N05_H32",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 5,
+      "unit": "NVP"
+    },
+    {
+      "index": 202,
+      "name": "N05_H41",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 5,
+      "unit": "NVP"
+    },
+    {
+      "index": 203,
+      "name": "N05_H42",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 5,
+      "unit": "NVP"
+    },
+    {
+      "index": 204,
+      "name": "N05_H51",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 5,
+      "unit": "NVP"
+    },
+    {
+      "index": 205,
+      "name": "N05_H52",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 5,
+      "unit": "NVP"
+    },
+    {
+      "index": 206,
+      "name": "D06_B1",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM backbone carbon 1",
+      "repeat_pair": 6,
+      "unit": "DEM"
+    },
+    {
+      "index": 207,
+      "name": "D06_HB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM backbone hydrogen",
+      "repeat_pair": 6,
+      "unit": "DEM"
+    },
+    {
+      "index": 208,
+      "name": "D06_B2",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM backbone carbon 2",
+      "repeat_pair": 6,
+      "unit": "DEM"
+    },
+    {
+      "index": 209,
+      "name": "D06_HB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM backbone hydrogen",
+      "repeat_pair": 6,
+      "unit": "DEM"
+    },
+    {
+      "index": 210,
+      "name": "D06_CL",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl carbon",
+      "repeat_pair": 6,
+      "unit": "DEM"
+    },
+    {
+      "index": 211,
+      "name": "D06_OLC",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl oxygen",
+      "repeat_pair": 6,
+      "unit": "DEM"
+    },
+    {
+      "index": 212,
+      "name": "D06_OLE",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester alkoxy oxygen",
+      "repeat_pair": 6,
+      "unit": "DEM"
+    },
+    {
+      "index": 213,
+      "name": "D06_ELA",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha carbon",
+      "repeat_pair": 6,
+      "unit": "DEM"
+    },
+    {
+      "index": 214,
+      "name": "D06_ELB",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta carbon",
+      "repeat_pair": 6,
+      "unit": "DEM"
+    },
+    {
+      "index": 215,
+      "name": "D06_HLA1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 6,
+      "unit": "DEM"
+    },
+    {
+      "index": 216,
+      "name": "D06_HLA2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 6,
+      "unit": "DEM"
+    },
+    {
+      "index": 217,
+      "name": "D06_HLB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 6,
+      "unit": "DEM"
+    },
+    {
+      "index": 218,
+      "name": "D06_HLB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 6,
+      "unit": "DEM"
+    },
+    {
+      "index": 219,
+      "name": "D06_HLB3",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 6,
+      "unit": "DEM"
+    },
+    {
+      "index": 220,
+      "name": "D06_CR",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl carbon",
+      "repeat_pair": 6,
+      "unit": "DEM"
+    },
+    {
+      "index": 221,
+      "name": "D06_ORC",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl oxygen",
+      "repeat_pair": 6,
+      "unit": "DEM"
+    },
+    {
+      "index": 222,
+      "name": "D06_ORE",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester alkoxy oxygen",
+      "repeat_pair": 6,
+      "unit": "DEM"
+    },
+    {
+      "index": 223,
+      "name": "D06_ERA",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha carbon",
+      "repeat_pair": 6,
+      "unit": "DEM"
+    },
+    {
+      "index": 224,
+      "name": "D06_ERB",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta carbon",
+      "repeat_pair": 6,
+      "unit": "DEM"
+    },
+    {
+      "index": 225,
+      "name": "D06_HRA1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 6,
+      "unit": "DEM"
+    },
+    {
+      "index": 226,
+      "name": "D06_HRA2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 6,
+      "unit": "DEM"
+    },
+    {
+      "index": 227,
+      "name": "D06_HRB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 6,
+      "unit": "DEM"
+    },
+    {
+      "index": 228,
+      "name": "D06_HRB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 6,
+      "unit": "DEM"
+    },
+    {
+      "index": 229,
+      "name": "D06_HRB3",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 6,
+      "unit": "DEM"
+    },
+    {
+      "index": 230,
+      "name": "N06_V1",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP backbone carbon 1",
+      "repeat_pair": 6,
+      "unit": "NVP"
+    },
+    {
+      "index": 231,
+      "name": "N06_V2",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP backbone carbon 2",
+      "repeat_pair": 6,
+      "unit": "NVP"
+    },
+    {
+      "index": 232,
+      "name": "N06_N",
+      "element": "N",
+      "formal_charge_e": 0,
+      "role": "NVP lactam nitrogen",
+      "repeat_pair": 6,
+      "unit": "NVP"
+    },
+    {
+      "index": 233,
+      "name": "N06_C0",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP lactam carbonyl carbon",
+      "repeat_pair": 6,
+      "unit": "NVP"
+    },
+    {
+      "index": 234,
+      "name": "N06_O0",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "NVP lactam carbonyl oxygen",
+      "repeat_pair": 6,
+      "unit": "NVP"
+    },
+    {
+      "index": 235,
+      "name": "N06_C3",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 6,
+      "unit": "NVP"
+    },
+    {
+      "index": 236,
+      "name": "N06_C4",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 6,
+      "unit": "NVP"
+    },
+    {
+      "index": 237,
+      "name": "N06_C5",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 6,
+      "unit": "NVP"
+    },
+    {
+      "index": 238,
+      "name": "N06_HV11",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methylene hydrogen",
+      "repeat_pair": 6,
+      "unit": "NVP"
+    },
+    {
+      "index": 239,
+      "name": "N06_HV12",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methylene hydrogen",
+      "repeat_pair": 6,
+      "unit": "NVP"
+    },
+    {
+      "index": 240,
+      "name": "N06_HV2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methine hydrogen",
+      "repeat_pair": 6,
+      "unit": "NVP"
+    },
+    {
+      "index": 241,
+      "name": "N06_H31",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 6,
+      "unit": "NVP"
+    },
+    {
+      "index": 242,
+      "name": "N06_H32",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 6,
+      "unit": "NVP"
+    },
+    {
+      "index": 243,
+      "name": "N06_H41",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 6,
+      "unit": "NVP"
+    },
+    {
+      "index": 244,
+      "name": "N06_H42",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 6,
+      "unit": "NVP"
+    },
+    {
+      "index": 245,
+      "name": "N06_H51",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 6,
+      "unit": "NVP"
+    },
+    {
+      "index": 246,
+      "name": "N06_H52",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 6,
+      "unit": "NVP"
+    },
+    {
+      "index": 247,
+      "name": "D07_B1",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM backbone carbon 1",
+      "repeat_pair": 7,
+      "unit": "DEM"
+    },
+    {
+      "index": 248,
+      "name": "D07_HB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM backbone hydrogen",
+      "repeat_pair": 7,
+      "unit": "DEM"
+    },
+    {
+      "index": 249,
+      "name": "D07_B2",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM backbone carbon 2",
+      "repeat_pair": 7,
+      "unit": "DEM"
+    },
+    {
+      "index": 250,
+      "name": "D07_HB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM backbone hydrogen",
+      "repeat_pair": 7,
+      "unit": "DEM"
+    },
+    {
+      "index": 251,
+      "name": "D07_CL",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl carbon",
+      "repeat_pair": 7,
+      "unit": "DEM"
+    },
+    {
+      "index": 252,
+      "name": "D07_OLC",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl oxygen",
+      "repeat_pair": 7,
+      "unit": "DEM"
+    },
+    {
+      "index": 253,
+      "name": "D07_OLE",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester alkoxy oxygen",
+      "repeat_pair": 7,
+      "unit": "DEM"
+    },
+    {
+      "index": 254,
+      "name": "D07_ELA",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha carbon",
+      "repeat_pair": 7,
+      "unit": "DEM"
+    },
+    {
+      "index": 255,
+      "name": "D07_ELB",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta carbon",
+      "repeat_pair": 7,
+      "unit": "DEM"
+    },
+    {
+      "index": 256,
+      "name": "D07_HLA1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 7,
+      "unit": "DEM"
+    },
+    {
+      "index": 257,
+      "name": "D07_HLA2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 7,
+      "unit": "DEM"
+    },
+    {
+      "index": 258,
+      "name": "D07_HLB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 7,
+      "unit": "DEM"
+    },
+    {
+      "index": 259,
+      "name": "D07_HLB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 7,
+      "unit": "DEM"
+    },
+    {
+      "index": 260,
+      "name": "D07_HLB3",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 7,
+      "unit": "DEM"
+    },
+    {
+      "index": 261,
+      "name": "D07_CR",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl carbon",
+      "repeat_pair": 7,
+      "unit": "DEM"
+    },
+    {
+      "index": 262,
+      "name": "D07_ORC",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl oxygen",
+      "repeat_pair": 7,
+      "unit": "DEM"
+    },
+    {
+      "index": 263,
+      "name": "D07_ORE",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester alkoxy oxygen",
+      "repeat_pair": 7,
+      "unit": "DEM"
+    },
+    {
+      "index": 264,
+      "name": "D07_ERA",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha carbon",
+      "repeat_pair": 7,
+      "unit": "DEM"
+    },
+    {
+      "index": 265,
+      "name": "D07_ERB",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta carbon",
+      "repeat_pair": 7,
+      "unit": "DEM"
+    },
+    {
+      "index": 266,
+      "name": "D07_HRA1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 7,
+      "unit": "DEM"
+    },
+    {
+      "index": 267,
+      "name": "D07_HRA2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 7,
+      "unit": "DEM"
+    },
+    {
+      "index": 268,
+      "name": "D07_HRB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 7,
+      "unit": "DEM"
+    },
+    {
+      "index": 269,
+      "name": "D07_HRB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 7,
+      "unit": "DEM"
+    },
+    {
+      "index": 270,
+      "name": "D07_HRB3",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 7,
+      "unit": "DEM"
+    },
+    {
+      "index": 271,
+      "name": "N07_V1",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP backbone carbon 1",
+      "repeat_pair": 7,
+      "unit": "NVP"
+    },
+    {
+      "index": 272,
+      "name": "N07_V2",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP backbone carbon 2",
+      "repeat_pair": 7,
+      "unit": "NVP"
+    },
+    {
+      "index": 273,
+      "name": "N07_N",
+      "element": "N",
+      "formal_charge_e": 0,
+      "role": "NVP lactam nitrogen",
+      "repeat_pair": 7,
+      "unit": "NVP"
+    },
+    {
+      "index": 274,
+      "name": "N07_C0",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP lactam carbonyl carbon",
+      "repeat_pair": 7,
+      "unit": "NVP"
+    },
+    {
+      "index": 275,
+      "name": "N07_O0",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "NVP lactam carbonyl oxygen",
+      "repeat_pair": 7,
+      "unit": "NVP"
+    },
+    {
+      "index": 276,
+      "name": "N07_C3",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 7,
+      "unit": "NVP"
+    },
+    {
+      "index": 277,
+      "name": "N07_C4",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 7,
+      "unit": "NVP"
+    },
+    {
+      "index": 278,
+      "name": "N07_C5",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 7,
+      "unit": "NVP"
+    },
+    {
+      "index": 279,
+      "name": "N07_HV11",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methylene hydrogen",
+      "repeat_pair": 7,
+      "unit": "NVP"
+    },
+    {
+      "index": 280,
+      "name": "N07_HV12",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methylene hydrogen",
+      "repeat_pair": 7,
+      "unit": "NVP"
+    },
+    {
+      "index": 281,
+      "name": "N07_HV2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methine hydrogen",
+      "repeat_pair": 7,
+      "unit": "NVP"
+    },
+    {
+      "index": 282,
+      "name": "N07_H31",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 7,
+      "unit": "NVP"
+    },
+    {
+      "index": 283,
+      "name": "N07_H32",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 7,
+      "unit": "NVP"
+    },
+    {
+      "index": 284,
+      "name": "N07_H41",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 7,
+      "unit": "NVP"
+    },
+    {
+      "index": 285,
+      "name": "N07_H42",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 7,
+      "unit": "NVP"
+    },
+    {
+      "index": 286,
+      "name": "N07_H51",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 7,
+      "unit": "NVP"
+    },
+    {
+      "index": 287,
+      "name": "N07_H52",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 7,
+      "unit": "NVP"
+    },
+    {
+      "index": 288,
+      "name": "D08_B1",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM backbone carbon 1",
+      "repeat_pair": 8,
+      "unit": "DEM"
+    },
+    {
+      "index": 289,
+      "name": "D08_HB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM backbone hydrogen",
+      "repeat_pair": 8,
+      "unit": "DEM"
+    },
+    {
+      "index": 290,
+      "name": "D08_B2",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM backbone carbon 2",
+      "repeat_pair": 8,
+      "unit": "DEM"
+    },
+    {
+      "index": 291,
+      "name": "D08_HB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM backbone hydrogen",
+      "repeat_pair": 8,
+      "unit": "DEM"
+    },
+    {
+      "index": 292,
+      "name": "D08_CL",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl carbon",
+      "repeat_pair": 8,
+      "unit": "DEM"
+    },
+    {
+      "index": 293,
+      "name": "D08_OLC",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl oxygen",
+      "repeat_pair": 8,
+      "unit": "DEM"
+    },
+    {
+      "index": 294,
+      "name": "D08_OLE",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester alkoxy oxygen",
+      "repeat_pair": 8,
+      "unit": "DEM"
+    },
+    {
+      "index": 295,
+      "name": "D08_ELA",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha carbon",
+      "repeat_pair": 8,
+      "unit": "DEM"
+    },
+    {
+      "index": 296,
+      "name": "D08_ELB",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta carbon",
+      "repeat_pair": 8,
+      "unit": "DEM"
+    },
+    {
+      "index": 297,
+      "name": "D08_HLA1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 8,
+      "unit": "DEM"
+    },
+    {
+      "index": 298,
+      "name": "D08_HLA2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 8,
+      "unit": "DEM"
+    },
+    {
+      "index": 299,
+      "name": "D08_HLB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 8,
+      "unit": "DEM"
+    },
+    {
+      "index": 300,
+      "name": "D08_HLB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 8,
+      "unit": "DEM"
+    },
+    {
+      "index": 301,
+      "name": "D08_HLB3",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 8,
+      "unit": "DEM"
+    },
+    {
+      "index": 302,
+      "name": "D08_CR",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl carbon",
+      "repeat_pair": 8,
+      "unit": "DEM"
+    },
+    {
+      "index": 303,
+      "name": "D08_ORC",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl oxygen",
+      "repeat_pair": 8,
+      "unit": "DEM"
+    },
+    {
+      "index": 304,
+      "name": "D08_ORE",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester alkoxy oxygen",
+      "repeat_pair": 8,
+      "unit": "DEM"
+    },
+    {
+      "index": 305,
+      "name": "D08_ERA",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha carbon",
+      "repeat_pair": 8,
+      "unit": "DEM"
+    },
+    {
+      "index": 306,
+      "name": "D08_ERB",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta carbon",
+      "repeat_pair": 8,
+      "unit": "DEM"
+    },
+    {
+      "index": 307,
+      "name": "D08_HRA1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 8,
+      "unit": "DEM"
+    },
+    {
+      "index": 308,
+      "name": "D08_HRA2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 8,
+      "unit": "DEM"
+    },
+    {
+      "index": 309,
+      "name": "D08_HRB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 8,
+      "unit": "DEM"
+    },
+    {
+      "index": 310,
+      "name": "D08_HRB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 8,
+      "unit": "DEM"
+    },
+    {
+      "index": 311,
+      "name": "D08_HRB3",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 8,
+      "unit": "DEM"
+    },
+    {
+      "index": 312,
+      "name": "N08_V1",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP backbone carbon 1",
+      "repeat_pair": 8,
+      "unit": "NVP"
+    },
+    {
+      "index": 313,
+      "name": "N08_V2",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP backbone carbon 2",
+      "repeat_pair": 8,
+      "unit": "NVP"
+    },
+    {
+      "index": 314,
+      "name": "N08_N",
+      "element": "N",
+      "formal_charge_e": 0,
+      "role": "NVP lactam nitrogen",
+      "repeat_pair": 8,
+      "unit": "NVP"
+    },
+    {
+      "index": 315,
+      "name": "N08_C0",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP lactam carbonyl carbon",
+      "repeat_pair": 8,
+      "unit": "NVP"
+    },
+    {
+      "index": 316,
+      "name": "N08_O0",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "NVP lactam carbonyl oxygen",
+      "repeat_pair": 8,
+      "unit": "NVP"
+    },
+    {
+      "index": 317,
+      "name": "N08_C3",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 8,
+      "unit": "NVP"
+    },
+    {
+      "index": 318,
+      "name": "N08_C4",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 8,
+      "unit": "NVP"
+    },
+    {
+      "index": 319,
+      "name": "N08_C5",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 8,
+      "unit": "NVP"
+    },
+    {
+      "index": 320,
+      "name": "N08_HV11",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methylene hydrogen",
+      "repeat_pair": 8,
+      "unit": "NVP"
+    },
+    {
+      "index": 321,
+      "name": "N08_HV12",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methylene hydrogen",
+      "repeat_pair": 8,
+      "unit": "NVP"
+    },
+    {
+      "index": 322,
+      "name": "N08_HV2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methine hydrogen",
+      "repeat_pair": 8,
+      "unit": "NVP"
+    },
+    {
+      "index": 323,
+      "name": "N08_H31",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 8,
+      "unit": "NVP"
+    },
+    {
+      "index": 324,
+      "name": "N08_H32",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 8,
+      "unit": "NVP"
+    },
+    {
+      "index": 325,
+      "name": "N08_H41",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 8,
+      "unit": "NVP"
+    },
+    {
+      "index": 326,
+      "name": "N08_H42",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 8,
+      "unit": "NVP"
+    },
+    {
+      "index": 327,
+      "name": "N08_H51",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 8,
+      "unit": "NVP"
+    },
+    {
+      "index": 328,
+      "name": "N08_H52",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 8,
+      "unit": "NVP"
+    },
+    {
+      "index": 329,
+      "name": "D09_B1",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM backbone carbon 1",
+      "repeat_pair": 9,
+      "unit": "DEM"
+    },
+    {
+      "index": 330,
+      "name": "D09_HB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM backbone hydrogen",
+      "repeat_pair": 9,
+      "unit": "DEM"
+    },
+    {
+      "index": 331,
+      "name": "D09_B2",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM backbone carbon 2",
+      "repeat_pair": 9,
+      "unit": "DEM"
+    },
+    {
+      "index": 332,
+      "name": "D09_HB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM backbone hydrogen",
+      "repeat_pair": 9,
+      "unit": "DEM"
+    },
+    {
+      "index": 333,
+      "name": "D09_CL",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl carbon",
+      "repeat_pair": 9,
+      "unit": "DEM"
+    },
+    {
+      "index": 334,
+      "name": "D09_OLC",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl oxygen",
+      "repeat_pair": 9,
+      "unit": "DEM"
+    },
+    {
+      "index": 335,
+      "name": "D09_OLE",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester alkoxy oxygen",
+      "repeat_pair": 9,
+      "unit": "DEM"
+    },
+    {
+      "index": 336,
+      "name": "D09_ELA",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha carbon",
+      "repeat_pair": 9,
+      "unit": "DEM"
+    },
+    {
+      "index": 337,
+      "name": "D09_ELB",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta carbon",
+      "repeat_pair": 9,
+      "unit": "DEM"
+    },
+    {
+      "index": 338,
+      "name": "D09_HLA1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 9,
+      "unit": "DEM"
+    },
+    {
+      "index": 339,
+      "name": "D09_HLA2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 9,
+      "unit": "DEM"
+    },
+    {
+      "index": 340,
+      "name": "D09_HLB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 9,
+      "unit": "DEM"
+    },
+    {
+      "index": 341,
+      "name": "D09_HLB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 9,
+      "unit": "DEM"
+    },
+    {
+      "index": 342,
+      "name": "D09_HLB3",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 9,
+      "unit": "DEM"
+    },
+    {
+      "index": 343,
+      "name": "D09_CR",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl carbon",
+      "repeat_pair": 9,
+      "unit": "DEM"
+    },
+    {
+      "index": 344,
+      "name": "D09_ORC",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl oxygen",
+      "repeat_pair": 9,
+      "unit": "DEM"
+    },
+    {
+      "index": 345,
+      "name": "D09_ORE",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester alkoxy oxygen",
+      "repeat_pair": 9,
+      "unit": "DEM"
+    },
+    {
+      "index": 346,
+      "name": "D09_ERA",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha carbon",
+      "repeat_pair": 9,
+      "unit": "DEM"
+    },
+    {
+      "index": 347,
+      "name": "D09_ERB",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta carbon",
+      "repeat_pair": 9,
+      "unit": "DEM"
+    },
+    {
+      "index": 348,
+      "name": "D09_HRA1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 9,
+      "unit": "DEM"
+    },
+    {
+      "index": 349,
+      "name": "D09_HRA2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 9,
+      "unit": "DEM"
+    },
+    {
+      "index": 350,
+      "name": "D09_HRB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 9,
+      "unit": "DEM"
+    },
+    {
+      "index": 351,
+      "name": "D09_HRB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 9,
+      "unit": "DEM"
+    },
+    {
+      "index": 352,
+      "name": "D09_HRB3",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 9,
+      "unit": "DEM"
+    },
+    {
+      "index": 353,
+      "name": "N09_V1",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP backbone carbon 1",
+      "repeat_pair": 9,
+      "unit": "NVP"
+    },
+    {
+      "index": 354,
+      "name": "N09_V2",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP backbone carbon 2",
+      "repeat_pair": 9,
+      "unit": "NVP"
+    },
+    {
+      "index": 355,
+      "name": "N09_N",
+      "element": "N",
+      "formal_charge_e": 0,
+      "role": "NVP lactam nitrogen",
+      "repeat_pair": 9,
+      "unit": "NVP"
+    },
+    {
+      "index": 356,
+      "name": "N09_C0",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP lactam carbonyl carbon",
+      "repeat_pair": 9,
+      "unit": "NVP"
+    },
+    {
+      "index": 357,
+      "name": "N09_O0",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "NVP lactam carbonyl oxygen",
+      "repeat_pair": 9,
+      "unit": "NVP"
+    },
+    {
+      "index": 358,
+      "name": "N09_C3",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 9,
+      "unit": "NVP"
+    },
+    {
+      "index": 359,
+      "name": "N09_C4",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 9,
+      "unit": "NVP"
+    },
+    {
+      "index": 360,
+      "name": "N09_C5",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 9,
+      "unit": "NVP"
+    },
+    {
+      "index": 361,
+      "name": "N09_HV11",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methylene hydrogen",
+      "repeat_pair": 9,
+      "unit": "NVP"
+    },
+    {
+      "index": 362,
+      "name": "N09_HV12",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methylene hydrogen",
+      "repeat_pair": 9,
+      "unit": "NVP"
+    },
+    {
+      "index": 363,
+      "name": "N09_HV2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methine hydrogen",
+      "repeat_pair": 9,
+      "unit": "NVP"
+    },
+    {
+      "index": 364,
+      "name": "N09_H31",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 9,
+      "unit": "NVP"
+    },
+    {
+      "index": 365,
+      "name": "N09_H32",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 9,
+      "unit": "NVP"
+    },
+    {
+      "index": 366,
+      "name": "N09_H41",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 9,
+      "unit": "NVP"
+    },
+    {
+      "index": 367,
+      "name": "N09_H42",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 9,
+      "unit": "NVP"
+    },
+    {
+      "index": 368,
+      "name": "N09_H51",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 9,
+      "unit": "NVP"
+    },
+    {
+      "index": 369,
+      "name": "N09_H52",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 9,
+      "unit": "NVP"
+    },
+    {
+      "index": 370,
+      "name": "D10_B1",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM backbone carbon 1",
+      "repeat_pair": 10,
+      "unit": "DEM"
+    },
+    {
+      "index": 371,
+      "name": "D10_HB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM backbone hydrogen",
+      "repeat_pair": 10,
+      "unit": "DEM"
+    },
+    {
+      "index": 372,
+      "name": "D10_B2",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM backbone carbon 2",
+      "repeat_pair": 10,
+      "unit": "DEM"
+    },
+    {
+      "index": 373,
+      "name": "D10_HB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM backbone hydrogen",
+      "repeat_pair": 10,
+      "unit": "DEM"
+    },
+    {
+      "index": 374,
+      "name": "D10_CL",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl carbon",
+      "repeat_pair": 10,
+      "unit": "DEM"
+    },
+    {
+      "index": 375,
+      "name": "D10_OLC",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl oxygen",
+      "repeat_pair": 10,
+      "unit": "DEM"
+    },
+    {
+      "index": 376,
+      "name": "D10_OLE",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester alkoxy oxygen",
+      "repeat_pair": 10,
+      "unit": "DEM"
+    },
+    {
+      "index": 377,
+      "name": "D10_ELA",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha carbon",
+      "repeat_pair": 10,
+      "unit": "DEM"
+    },
+    {
+      "index": 378,
+      "name": "D10_ELB",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta carbon",
+      "repeat_pair": 10,
+      "unit": "DEM"
+    },
+    {
+      "index": 379,
+      "name": "D10_HLA1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 10,
+      "unit": "DEM"
+    },
+    {
+      "index": 380,
+      "name": "D10_HLA2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 10,
+      "unit": "DEM"
+    },
+    {
+      "index": 381,
+      "name": "D10_HLB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 10,
+      "unit": "DEM"
+    },
+    {
+      "index": 382,
+      "name": "D10_HLB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 10,
+      "unit": "DEM"
+    },
+    {
+      "index": 383,
+      "name": "D10_HLB3",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 10,
+      "unit": "DEM"
+    },
+    {
+      "index": 384,
+      "name": "D10_CR",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl carbon",
+      "repeat_pair": 10,
+      "unit": "DEM"
+    },
+    {
+      "index": 385,
+      "name": "D10_ORC",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester carbonyl oxygen",
+      "repeat_pair": 10,
+      "unit": "DEM"
+    },
+    {
+      "index": 386,
+      "name": "D10_ORE",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "DEM ester alkoxy oxygen",
+      "repeat_pair": 10,
+      "unit": "DEM"
+    },
+    {
+      "index": 387,
+      "name": "D10_ERA",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha carbon",
+      "repeat_pair": 10,
+      "unit": "DEM"
+    },
+    {
+      "index": 388,
+      "name": "D10_ERB",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta carbon",
+      "repeat_pair": 10,
+      "unit": "DEM"
+    },
+    {
+      "index": 389,
+      "name": "D10_HRA1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 10,
+      "unit": "DEM"
+    },
+    {
+      "index": 390,
+      "name": "D10_HRA2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl alpha hydrogen",
+      "repeat_pair": 10,
+      "unit": "DEM"
+    },
+    {
+      "index": 391,
+      "name": "D10_HRB1",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 10,
+      "unit": "DEM"
+    },
+    {
+      "index": 392,
+      "name": "D10_HRB2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 10,
+      "unit": "DEM"
+    },
+    {
+      "index": 393,
+      "name": "D10_HRB3",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "DEM ethyl beta hydrogen",
+      "repeat_pair": 10,
+      "unit": "DEM"
+    },
+    {
+      "index": 394,
+      "name": "N10_V1",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP backbone carbon 1",
+      "repeat_pair": 10,
+      "unit": "NVP"
+    },
+    {
+      "index": 395,
+      "name": "N10_V2",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP backbone carbon 2",
+      "repeat_pair": 10,
+      "unit": "NVP"
+    },
+    {
+      "index": 396,
+      "name": "N10_N",
+      "element": "N",
+      "formal_charge_e": 0,
+      "role": "NVP lactam nitrogen",
+      "repeat_pair": 10,
+      "unit": "NVP"
+    },
+    {
+      "index": 397,
+      "name": "N10_C0",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP lactam carbonyl carbon",
+      "repeat_pair": 10,
+      "unit": "NVP"
+    },
+    {
+      "index": 398,
+      "name": "N10_O0",
+      "element": "O",
+      "formal_charge_e": 0,
+      "role": "NVP lactam carbonyl oxygen",
+      "repeat_pair": 10,
+      "unit": "NVP"
+    },
+    {
+      "index": 399,
+      "name": "N10_C3",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 10,
+      "unit": "NVP"
+    },
+    {
+      "index": 400,
+      "name": "N10_C4",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 10,
+      "unit": "NVP"
+    },
+    {
+      "index": 401,
+      "name": "N10_C5",
+      "element": "C",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene carbon",
+      "repeat_pair": 10,
+      "unit": "NVP"
+    },
+    {
+      "index": 402,
+      "name": "N10_HV11",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methylene hydrogen",
+      "repeat_pair": 10,
+      "unit": "NVP"
+    },
+    {
+      "index": 403,
+      "name": "N10_HV12",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methylene hydrogen",
+      "repeat_pair": 10,
+      "unit": "NVP"
+    },
+    {
+      "index": 404,
+      "name": "N10_HV2",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP backbone methine hydrogen",
+      "repeat_pair": 10,
+      "unit": "NVP"
+    },
+    {
+      "index": 405,
+      "name": "N10_H31",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 10,
+      "unit": "NVP"
+    },
+    {
+      "index": 406,
+      "name": "N10_H32",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 10,
+      "unit": "NVP"
+    },
+    {
+      "index": 407,
+      "name": "N10_H41",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 10,
+      "unit": "NVP"
+    },
+    {
+      "index": 408,
+      "name": "N10_H42",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 10,
+      "unit": "NVP"
+    },
+    {
+      "index": 409,
+      "name": "N10_H51",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 10,
+      "unit": "NVP"
+    },
+    {
+      "index": 410,
+      "name": "N10_H52",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "NVP ring methylene hydrogen",
+      "repeat_pair": 10,
+      "unit": "NVP"
+    },
+    {
+      "index": 411,
+      "name": "TERM_START_H",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "hydrogen cap at DEM chain start",
+      "repeat_pair": 0,
+      "unit": "TERMINUS"
+    },
+    {
+      "index": 412,
+      "name": "TERM_END_H",
+      "element": "H",
+      "formal_charge_e": 0,
+      "role": "hydrogen cap at NVP chain end",
+      "repeat_pair": 11,
+      "unit": "TERMINUS"
+    }
+  ],
+  "bonds": [
+    {
+      "atom_1": "D01_ELA",
+      "atom_2": "D01_HLA1",
+      "order": 1
+    },
+    {
+      "atom_1": "D01_ELA",
+      "atom_2": "D01_HLA2",
+      "order": 1
+    },
+    {
+      "atom_1": "D01_ELB",
+      "atom_2": "D01_HLB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D01_ELB",
+      "atom_2": "D01_HLB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D01_ELB",
+      "atom_2": "D01_HLB3",
+      "order": 1
+    },
+    {
+      "atom_1": "D01_CL",
+      "atom_2": "D01_OLC",
+      "order": 2
+    },
+    {
+      "atom_1": "D01_CL",
+      "atom_2": "D01_OLE",
+      "order": 1
+    },
+    {
+      "atom_1": "D01_OLE",
+      "atom_2": "D01_ELA",
+      "order": 1
+    },
+    {
+      "atom_1": "D01_ELA",
+      "atom_2": "D01_ELB",
+      "order": 1
+    },
+    {
+      "atom_1": "D01_ERA",
+      "atom_2": "D01_HRA1",
+      "order": 1
+    },
+    {
+      "atom_1": "D01_ERA",
+      "atom_2": "D01_HRA2",
+      "order": 1
+    },
+    {
+      "atom_1": "D01_ERB",
+      "atom_2": "D01_HRB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D01_ERB",
+      "atom_2": "D01_HRB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D01_ERB",
+      "atom_2": "D01_HRB3",
+      "order": 1
+    },
+    {
+      "atom_1": "D01_CR",
+      "atom_2": "D01_ORC",
+      "order": 2
+    },
+    {
+      "atom_1": "D01_CR",
+      "atom_2": "D01_ORE",
+      "order": 1
+    },
+    {
+      "atom_1": "D01_ORE",
+      "atom_2": "D01_ERA",
+      "order": 1
+    },
+    {
+      "atom_1": "D01_ERA",
+      "atom_2": "D01_ERB",
+      "order": 1
+    },
+    {
+      "atom_1": "D01_B1",
+      "atom_2": "D01_B2",
+      "order": 1
+    },
+    {
+      "atom_1": "D01_B1",
+      "atom_2": "D01_HB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D01_B2",
+      "atom_2": "D01_HB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D01_B1",
+      "atom_2": "D01_CL",
+      "order": 1
+    },
+    {
+      "atom_1": "D01_B2",
+      "atom_2": "D01_CR",
+      "order": 1
+    },
+    {
+      "atom_1": "N01_V1",
+      "atom_2": "N01_HV11",
+      "order": 1
+    },
+    {
+      "atom_1": "N01_V1",
+      "atom_2": "N01_HV12",
+      "order": 1
+    },
+    {
+      "atom_1": "N01_V2",
+      "atom_2": "N01_HV2",
+      "order": 1
+    },
+    {
+      "atom_1": "N01_C3",
+      "atom_2": "N01_H31",
+      "order": 1
+    },
+    {
+      "atom_1": "N01_C3",
+      "atom_2": "N01_H32",
+      "order": 1
+    },
+    {
+      "atom_1": "N01_C4",
+      "atom_2": "N01_H41",
+      "order": 1
+    },
+    {
+      "atom_1": "N01_C4",
+      "atom_2": "N01_H42",
+      "order": 1
+    },
+    {
+      "atom_1": "N01_C5",
+      "atom_2": "N01_H51",
+      "order": 1
+    },
+    {
+      "atom_1": "N01_C5",
+      "atom_2": "N01_H52",
+      "order": 1
+    },
+    {
+      "atom_1": "D01_B2",
+      "atom_2": "N01_V1",
+      "order": 1
+    },
+    {
+      "atom_1": "N01_V1",
+      "atom_2": "N01_V2",
+      "order": 1
+    },
+    {
+      "atom_1": "N01_V2",
+      "atom_2": "N01_N",
+      "order": 1
+    },
+    {
+      "atom_1": "N01_N",
+      "atom_2": "N01_C0",
+      "order": 1
+    },
+    {
+      "atom_1": "N01_C0",
+      "atom_2": "N01_O0",
+      "order": 2
+    },
+    {
+      "atom_1": "N01_C0",
+      "atom_2": "N01_C3",
+      "order": 1
+    },
+    {
+      "atom_1": "N01_C3",
+      "atom_2": "N01_C4",
+      "order": 1
+    },
+    {
+      "atom_1": "N01_C4",
+      "atom_2": "N01_C5",
+      "order": 1
+    },
+    {
+      "atom_1": "N01_C5",
+      "atom_2": "N01_N",
+      "order": 1
+    },
+    {
+      "atom_1": "D02_ELA",
+      "atom_2": "D02_HLA1",
+      "order": 1
+    },
+    {
+      "atom_1": "D02_ELA",
+      "atom_2": "D02_HLA2",
+      "order": 1
+    },
+    {
+      "atom_1": "D02_ELB",
+      "atom_2": "D02_HLB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D02_ELB",
+      "atom_2": "D02_HLB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D02_ELB",
+      "atom_2": "D02_HLB3",
+      "order": 1
+    },
+    {
+      "atom_1": "D02_CL",
+      "atom_2": "D02_OLC",
+      "order": 2
+    },
+    {
+      "atom_1": "D02_CL",
+      "atom_2": "D02_OLE",
+      "order": 1
+    },
+    {
+      "atom_1": "D02_OLE",
+      "atom_2": "D02_ELA",
+      "order": 1
+    },
+    {
+      "atom_1": "D02_ELA",
+      "atom_2": "D02_ELB",
+      "order": 1
+    },
+    {
+      "atom_1": "D02_ERA",
+      "atom_2": "D02_HRA1",
+      "order": 1
+    },
+    {
+      "atom_1": "D02_ERA",
+      "atom_2": "D02_HRA2",
+      "order": 1
+    },
+    {
+      "atom_1": "D02_ERB",
+      "atom_2": "D02_HRB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D02_ERB",
+      "atom_2": "D02_HRB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D02_ERB",
+      "atom_2": "D02_HRB3",
+      "order": 1
+    },
+    {
+      "atom_1": "D02_CR",
+      "atom_2": "D02_ORC",
+      "order": 2
+    },
+    {
+      "atom_1": "D02_CR",
+      "atom_2": "D02_ORE",
+      "order": 1
+    },
+    {
+      "atom_1": "D02_ORE",
+      "atom_2": "D02_ERA",
+      "order": 1
+    },
+    {
+      "atom_1": "D02_ERA",
+      "atom_2": "D02_ERB",
+      "order": 1
+    },
+    {
+      "atom_1": "D02_B1",
+      "atom_2": "D02_B2",
+      "order": 1
+    },
+    {
+      "atom_1": "D02_B1",
+      "atom_2": "D02_HB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D02_B2",
+      "atom_2": "D02_HB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D02_B1",
+      "atom_2": "D02_CL",
+      "order": 1
+    },
+    {
+      "atom_1": "D02_B2",
+      "atom_2": "D02_CR",
+      "order": 1
+    },
+    {
+      "atom_1": "N01_V2",
+      "atom_2": "D02_B1",
+      "order": 1
+    },
+    {
+      "atom_1": "N02_V1",
+      "atom_2": "N02_HV11",
+      "order": 1
+    },
+    {
+      "atom_1": "N02_V1",
+      "atom_2": "N02_HV12",
+      "order": 1
+    },
+    {
+      "atom_1": "N02_V2",
+      "atom_2": "N02_HV2",
+      "order": 1
+    },
+    {
+      "atom_1": "N02_C3",
+      "atom_2": "N02_H31",
+      "order": 1
+    },
+    {
+      "atom_1": "N02_C3",
+      "atom_2": "N02_H32",
+      "order": 1
+    },
+    {
+      "atom_1": "N02_C4",
+      "atom_2": "N02_H41",
+      "order": 1
+    },
+    {
+      "atom_1": "N02_C4",
+      "atom_2": "N02_H42",
+      "order": 1
+    },
+    {
+      "atom_1": "N02_C5",
+      "atom_2": "N02_H51",
+      "order": 1
+    },
+    {
+      "atom_1": "N02_C5",
+      "atom_2": "N02_H52",
+      "order": 1
+    },
+    {
+      "atom_1": "D02_B2",
+      "atom_2": "N02_V1",
+      "order": 1
+    },
+    {
+      "atom_1": "N02_V1",
+      "atom_2": "N02_V2",
+      "order": 1
+    },
+    {
+      "atom_1": "N02_V2",
+      "atom_2": "N02_N",
+      "order": 1
+    },
+    {
+      "atom_1": "N02_N",
+      "atom_2": "N02_C0",
+      "order": 1
+    },
+    {
+      "atom_1": "N02_C0",
+      "atom_2": "N02_O0",
+      "order": 2
+    },
+    {
+      "atom_1": "N02_C0",
+      "atom_2": "N02_C3",
+      "order": 1
+    },
+    {
+      "atom_1": "N02_C3",
+      "atom_2": "N02_C4",
+      "order": 1
+    },
+    {
+      "atom_1": "N02_C4",
+      "atom_2": "N02_C5",
+      "order": 1
+    },
+    {
+      "atom_1": "N02_C5",
+      "atom_2": "N02_N",
+      "order": 1
+    },
+    {
+      "atom_1": "D03_ELA",
+      "atom_2": "D03_HLA1",
+      "order": 1
+    },
+    {
+      "atom_1": "D03_ELA",
+      "atom_2": "D03_HLA2",
+      "order": 1
+    },
+    {
+      "atom_1": "D03_ELB",
+      "atom_2": "D03_HLB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D03_ELB",
+      "atom_2": "D03_HLB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D03_ELB",
+      "atom_2": "D03_HLB3",
+      "order": 1
+    },
+    {
+      "atom_1": "D03_CL",
+      "atom_2": "D03_OLC",
+      "order": 2
+    },
+    {
+      "atom_1": "D03_CL",
+      "atom_2": "D03_OLE",
+      "order": 1
+    },
+    {
+      "atom_1": "D03_OLE",
+      "atom_2": "D03_ELA",
+      "order": 1
+    },
+    {
+      "atom_1": "D03_ELA",
+      "atom_2": "D03_ELB",
+      "order": 1
+    },
+    {
+      "atom_1": "D03_ERA",
+      "atom_2": "D03_HRA1",
+      "order": 1
+    },
+    {
+      "atom_1": "D03_ERA",
+      "atom_2": "D03_HRA2",
+      "order": 1
+    },
+    {
+      "atom_1": "D03_ERB",
+      "atom_2": "D03_HRB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D03_ERB",
+      "atom_2": "D03_HRB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D03_ERB",
+      "atom_2": "D03_HRB3",
+      "order": 1
+    },
+    {
+      "atom_1": "D03_CR",
+      "atom_2": "D03_ORC",
+      "order": 2
+    },
+    {
+      "atom_1": "D03_CR",
+      "atom_2": "D03_ORE",
+      "order": 1
+    },
+    {
+      "atom_1": "D03_ORE",
+      "atom_2": "D03_ERA",
+      "order": 1
+    },
+    {
+      "atom_1": "D03_ERA",
+      "atom_2": "D03_ERB",
+      "order": 1
+    },
+    {
+      "atom_1": "D03_B1",
+      "atom_2": "D03_B2",
+      "order": 1
+    },
+    {
+      "atom_1": "D03_B1",
+      "atom_2": "D03_HB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D03_B2",
+      "atom_2": "D03_HB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D03_B1",
+      "atom_2": "D03_CL",
+      "order": 1
+    },
+    {
+      "atom_1": "D03_B2",
+      "atom_2": "D03_CR",
+      "order": 1
+    },
+    {
+      "atom_1": "N02_V2",
+      "atom_2": "D03_B1",
+      "order": 1
+    },
+    {
+      "atom_1": "N03_V1",
+      "atom_2": "N03_HV11",
+      "order": 1
+    },
+    {
+      "atom_1": "N03_V1",
+      "atom_2": "N03_HV12",
+      "order": 1
+    },
+    {
+      "atom_1": "N03_V2",
+      "atom_2": "N03_HV2",
+      "order": 1
+    },
+    {
+      "atom_1": "N03_C3",
+      "atom_2": "N03_H31",
+      "order": 1
+    },
+    {
+      "atom_1": "N03_C3",
+      "atom_2": "N03_H32",
+      "order": 1
+    },
+    {
+      "atom_1": "N03_C4",
+      "atom_2": "N03_H41",
+      "order": 1
+    },
+    {
+      "atom_1": "N03_C4",
+      "atom_2": "N03_H42",
+      "order": 1
+    },
+    {
+      "atom_1": "N03_C5",
+      "atom_2": "N03_H51",
+      "order": 1
+    },
+    {
+      "atom_1": "N03_C5",
+      "atom_2": "N03_H52",
+      "order": 1
+    },
+    {
+      "atom_1": "D03_B2",
+      "atom_2": "N03_V1",
+      "order": 1
+    },
+    {
+      "atom_1": "N03_V1",
+      "atom_2": "N03_V2",
+      "order": 1
+    },
+    {
+      "atom_1": "N03_V2",
+      "atom_2": "N03_N",
+      "order": 1
+    },
+    {
+      "atom_1": "N03_N",
+      "atom_2": "N03_C0",
+      "order": 1
+    },
+    {
+      "atom_1": "N03_C0",
+      "atom_2": "N03_O0",
+      "order": 2
+    },
+    {
+      "atom_1": "N03_C0",
+      "atom_2": "N03_C3",
+      "order": 1
+    },
+    {
+      "atom_1": "N03_C3",
+      "atom_2": "N03_C4",
+      "order": 1
+    },
+    {
+      "atom_1": "N03_C4",
+      "atom_2": "N03_C5",
+      "order": 1
+    },
+    {
+      "atom_1": "N03_C5",
+      "atom_2": "N03_N",
+      "order": 1
+    },
+    {
+      "atom_1": "D04_ELA",
+      "atom_2": "D04_HLA1",
+      "order": 1
+    },
+    {
+      "atom_1": "D04_ELA",
+      "atom_2": "D04_HLA2",
+      "order": 1
+    },
+    {
+      "atom_1": "D04_ELB",
+      "atom_2": "D04_HLB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D04_ELB",
+      "atom_2": "D04_HLB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D04_ELB",
+      "atom_2": "D04_HLB3",
+      "order": 1
+    },
+    {
+      "atom_1": "D04_CL",
+      "atom_2": "D04_OLC",
+      "order": 2
+    },
+    {
+      "atom_1": "D04_CL",
+      "atom_2": "D04_OLE",
+      "order": 1
+    },
+    {
+      "atom_1": "D04_OLE",
+      "atom_2": "D04_ELA",
+      "order": 1
+    },
+    {
+      "atom_1": "D04_ELA",
+      "atom_2": "D04_ELB",
+      "order": 1
+    },
+    {
+      "atom_1": "D04_ERA",
+      "atom_2": "D04_HRA1",
+      "order": 1
+    },
+    {
+      "atom_1": "D04_ERA",
+      "atom_2": "D04_HRA2",
+      "order": 1
+    },
+    {
+      "atom_1": "D04_ERB",
+      "atom_2": "D04_HRB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D04_ERB",
+      "atom_2": "D04_HRB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D04_ERB",
+      "atom_2": "D04_HRB3",
+      "order": 1
+    },
+    {
+      "atom_1": "D04_CR",
+      "atom_2": "D04_ORC",
+      "order": 2
+    },
+    {
+      "atom_1": "D04_CR",
+      "atom_2": "D04_ORE",
+      "order": 1
+    },
+    {
+      "atom_1": "D04_ORE",
+      "atom_2": "D04_ERA",
+      "order": 1
+    },
+    {
+      "atom_1": "D04_ERA",
+      "atom_2": "D04_ERB",
+      "order": 1
+    },
+    {
+      "atom_1": "D04_B1",
+      "atom_2": "D04_B2",
+      "order": 1
+    },
+    {
+      "atom_1": "D04_B1",
+      "atom_2": "D04_HB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D04_B2",
+      "atom_2": "D04_HB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D04_B1",
+      "atom_2": "D04_CL",
+      "order": 1
+    },
+    {
+      "atom_1": "D04_B2",
+      "atom_2": "D04_CR",
+      "order": 1
+    },
+    {
+      "atom_1": "N03_V2",
+      "atom_2": "D04_B1",
+      "order": 1
+    },
+    {
+      "atom_1": "N04_V1",
+      "atom_2": "N04_HV11",
+      "order": 1
+    },
+    {
+      "atom_1": "N04_V1",
+      "atom_2": "N04_HV12",
+      "order": 1
+    },
+    {
+      "atom_1": "N04_V2",
+      "atom_2": "N04_HV2",
+      "order": 1
+    },
+    {
+      "atom_1": "N04_C3",
+      "atom_2": "N04_H31",
+      "order": 1
+    },
+    {
+      "atom_1": "N04_C3",
+      "atom_2": "N04_H32",
+      "order": 1
+    },
+    {
+      "atom_1": "N04_C4",
+      "atom_2": "N04_H41",
+      "order": 1
+    },
+    {
+      "atom_1": "N04_C4",
+      "atom_2": "N04_H42",
+      "order": 1
+    },
+    {
+      "atom_1": "N04_C5",
+      "atom_2": "N04_H51",
+      "order": 1
+    },
+    {
+      "atom_1": "N04_C5",
+      "atom_2": "N04_H52",
+      "order": 1
+    },
+    {
+      "atom_1": "D04_B2",
+      "atom_2": "N04_V1",
+      "order": 1
+    },
+    {
+      "atom_1": "N04_V1",
+      "atom_2": "N04_V2",
+      "order": 1
+    },
+    {
+      "atom_1": "N04_V2",
+      "atom_2": "N04_N",
+      "order": 1
+    },
+    {
+      "atom_1": "N04_N",
+      "atom_2": "N04_C0",
+      "order": 1
+    },
+    {
+      "atom_1": "N04_C0",
+      "atom_2": "N04_O0",
+      "order": 2
+    },
+    {
+      "atom_1": "N04_C0",
+      "atom_2": "N04_C3",
+      "order": 1
+    },
+    {
+      "atom_1": "N04_C3",
+      "atom_2": "N04_C4",
+      "order": 1
+    },
+    {
+      "atom_1": "N04_C4",
+      "atom_2": "N04_C5",
+      "order": 1
+    },
+    {
+      "atom_1": "N04_C5",
+      "atom_2": "N04_N",
+      "order": 1
+    },
+    {
+      "atom_1": "D05_ELA",
+      "atom_2": "D05_HLA1",
+      "order": 1
+    },
+    {
+      "atom_1": "D05_ELA",
+      "atom_2": "D05_HLA2",
+      "order": 1
+    },
+    {
+      "atom_1": "D05_ELB",
+      "atom_2": "D05_HLB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D05_ELB",
+      "atom_2": "D05_HLB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D05_ELB",
+      "atom_2": "D05_HLB3",
+      "order": 1
+    },
+    {
+      "atom_1": "D05_CL",
+      "atom_2": "D05_OLC",
+      "order": 2
+    },
+    {
+      "atom_1": "D05_CL",
+      "atom_2": "D05_OLE",
+      "order": 1
+    },
+    {
+      "atom_1": "D05_OLE",
+      "atom_2": "D05_ELA",
+      "order": 1
+    },
+    {
+      "atom_1": "D05_ELA",
+      "atom_2": "D05_ELB",
+      "order": 1
+    },
+    {
+      "atom_1": "D05_ERA",
+      "atom_2": "D05_HRA1",
+      "order": 1
+    },
+    {
+      "atom_1": "D05_ERA",
+      "atom_2": "D05_HRA2",
+      "order": 1
+    },
+    {
+      "atom_1": "D05_ERB",
+      "atom_2": "D05_HRB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D05_ERB",
+      "atom_2": "D05_HRB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D05_ERB",
+      "atom_2": "D05_HRB3",
+      "order": 1
+    },
+    {
+      "atom_1": "D05_CR",
+      "atom_2": "D05_ORC",
+      "order": 2
+    },
+    {
+      "atom_1": "D05_CR",
+      "atom_2": "D05_ORE",
+      "order": 1
+    },
+    {
+      "atom_1": "D05_ORE",
+      "atom_2": "D05_ERA",
+      "order": 1
+    },
+    {
+      "atom_1": "D05_ERA",
+      "atom_2": "D05_ERB",
+      "order": 1
+    },
+    {
+      "atom_1": "D05_B1",
+      "atom_2": "D05_B2",
+      "order": 1
+    },
+    {
+      "atom_1": "D05_B1",
+      "atom_2": "D05_HB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D05_B2",
+      "atom_2": "D05_HB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D05_B1",
+      "atom_2": "D05_CL",
+      "order": 1
+    },
+    {
+      "atom_1": "D05_B2",
+      "atom_2": "D05_CR",
+      "order": 1
+    },
+    {
+      "atom_1": "N04_V2",
+      "atom_2": "D05_B1",
+      "order": 1
+    },
+    {
+      "atom_1": "N05_V1",
+      "atom_2": "N05_HV11",
+      "order": 1
+    },
+    {
+      "atom_1": "N05_V1",
+      "atom_2": "N05_HV12",
+      "order": 1
+    },
+    {
+      "atom_1": "N05_V2",
+      "atom_2": "N05_HV2",
+      "order": 1
+    },
+    {
+      "atom_1": "N05_C3",
+      "atom_2": "N05_H31",
+      "order": 1
+    },
+    {
+      "atom_1": "N05_C3",
+      "atom_2": "N05_H32",
+      "order": 1
+    },
+    {
+      "atom_1": "N05_C4",
+      "atom_2": "N05_H41",
+      "order": 1
+    },
+    {
+      "atom_1": "N05_C4",
+      "atom_2": "N05_H42",
+      "order": 1
+    },
+    {
+      "atom_1": "N05_C5",
+      "atom_2": "N05_H51",
+      "order": 1
+    },
+    {
+      "atom_1": "N05_C5",
+      "atom_2": "N05_H52",
+      "order": 1
+    },
+    {
+      "atom_1": "D05_B2",
+      "atom_2": "N05_V1",
+      "order": 1
+    },
+    {
+      "atom_1": "N05_V1",
+      "atom_2": "N05_V2",
+      "order": 1
+    },
+    {
+      "atom_1": "N05_V2",
+      "atom_2": "N05_N",
+      "order": 1
+    },
+    {
+      "atom_1": "N05_N",
+      "atom_2": "N05_C0",
+      "order": 1
+    },
+    {
+      "atom_1": "N05_C0",
+      "atom_2": "N05_O0",
+      "order": 2
+    },
+    {
+      "atom_1": "N05_C0",
+      "atom_2": "N05_C3",
+      "order": 1
+    },
+    {
+      "atom_1": "N05_C3",
+      "atom_2": "N05_C4",
+      "order": 1
+    },
+    {
+      "atom_1": "N05_C4",
+      "atom_2": "N05_C5",
+      "order": 1
+    },
+    {
+      "atom_1": "N05_C5",
+      "atom_2": "N05_N",
+      "order": 1
+    },
+    {
+      "atom_1": "D06_ELA",
+      "atom_2": "D06_HLA1",
+      "order": 1
+    },
+    {
+      "atom_1": "D06_ELA",
+      "atom_2": "D06_HLA2",
+      "order": 1
+    },
+    {
+      "atom_1": "D06_ELB",
+      "atom_2": "D06_HLB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D06_ELB",
+      "atom_2": "D06_HLB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D06_ELB",
+      "atom_2": "D06_HLB3",
+      "order": 1
+    },
+    {
+      "atom_1": "D06_CL",
+      "atom_2": "D06_OLC",
+      "order": 2
+    },
+    {
+      "atom_1": "D06_CL",
+      "atom_2": "D06_OLE",
+      "order": 1
+    },
+    {
+      "atom_1": "D06_OLE",
+      "atom_2": "D06_ELA",
+      "order": 1
+    },
+    {
+      "atom_1": "D06_ELA",
+      "atom_2": "D06_ELB",
+      "order": 1
+    },
+    {
+      "atom_1": "D06_ERA",
+      "atom_2": "D06_HRA1",
+      "order": 1
+    },
+    {
+      "atom_1": "D06_ERA",
+      "atom_2": "D06_HRA2",
+      "order": 1
+    },
+    {
+      "atom_1": "D06_ERB",
+      "atom_2": "D06_HRB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D06_ERB",
+      "atom_2": "D06_HRB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D06_ERB",
+      "atom_2": "D06_HRB3",
+      "order": 1
+    },
+    {
+      "atom_1": "D06_CR",
+      "atom_2": "D06_ORC",
+      "order": 2
+    },
+    {
+      "atom_1": "D06_CR",
+      "atom_2": "D06_ORE",
+      "order": 1
+    },
+    {
+      "atom_1": "D06_ORE",
+      "atom_2": "D06_ERA",
+      "order": 1
+    },
+    {
+      "atom_1": "D06_ERA",
+      "atom_2": "D06_ERB",
+      "order": 1
+    },
+    {
+      "atom_1": "D06_B1",
+      "atom_2": "D06_B2",
+      "order": 1
+    },
+    {
+      "atom_1": "D06_B1",
+      "atom_2": "D06_HB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D06_B2",
+      "atom_2": "D06_HB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D06_B1",
+      "atom_2": "D06_CL",
+      "order": 1
+    },
+    {
+      "atom_1": "D06_B2",
+      "atom_2": "D06_CR",
+      "order": 1
+    },
+    {
+      "atom_1": "N05_V2",
+      "atom_2": "D06_B1",
+      "order": 1
+    },
+    {
+      "atom_1": "N06_V1",
+      "atom_2": "N06_HV11",
+      "order": 1
+    },
+    {
+      "atom_1": "N06_V1",
+      "atom_2": "N06_HV12",
+      "order": 1
+    },
+    {
+      "atom_1": "N06_V2",
+      "atom_2": "N06_HV2",
+      "order": 1
+    },
+    {
+      "atom_1": "N06_C3",
+      "atom_2": "N06_H31",
+      "order": 1
+    },
+    {
+      "atom_1": "N06_C3",
+      "atom_2": "N06_H32",
+      "order": 1
+    },
+    {
+      "atom_1": "N06_C4",
+      "atom_2": "N06_H41",
+      "order": 1
+    },
+    {
+      "atom_1": "N06_C4",
+      "atom_2": "N06_H42",
+      "order": 1
+    },
+    {
+      "atom_1": "N06_C5",
+      "atom_2": "N06_H51",
+      "order": 1
+    },
+    {
+      "atom_1": "N06_C5",
+      "atom_2": "N06_H52",
+      "order": 1
+    },
+    {
+      "atom_1": "D06_B2",
+      "atom_2": "N06_V1",
+      "order": 1
+    },
+    {
+      "atom_1": "N06_V1",
+      "atom_2": "N06_V2",
+      "order": 1
+    },
+    {
+      "atom_1": "N06_V2",
+      "atom_2": "N06_N",
+      "order": 1
+    },
+    {
+      "atom_1": "N06_N",
+      "atom_2": "N06_C0",
+      "order": 1
+    },
+    {
+      "atom_1": "N06_C0",
+      "atom_2": "N06_O0",
+      "order": 2
+    },
+    {
+      "atom_1": "N06_C0",
+      "atom_2": "N06_C3",
+      "order": 1
+    },
+    {
+      "atom_1": "N06_C3",
+      "atom_2": "N06_C4",
+      "order": 1
+    },
+    {
+      "atom_1": "N06_C4",
+      "atom_2": "N06_C5",
+      "order": 1
+    },
+    {
+      "atom_1": "N06_C5",
+      "atom_2": "N06_N",
+      "order": 1
+    },
+    {
+      "atom_1": "D07_ELA",
+      "atom_2": "D07_HLA1",
+      "order": 1
+    },
+    {
+      "atom_1": "D07_ELA",
+      "atom_2": "D07_HLA2",
+      "order": 1
+    },
+    {
+      "atom_1": "D07_ELB",
+      "atom_2": "D07_HLB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D07_ELB",
+      "atom_2": "D07_HLB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D07_ELB",
+      "atom_2": "D07_HLB3",
+      "order": 1
+    },
+    {
+      "atom_1": "D07_CL",
+      "atom_2": "D07_OLC",
+      "order": 2
+    },
+    {
+      "atom_1": "D07_CL",
+      "atom_2": "D07_OLE",
+      "order": 1
+    },
+    {
+      "atom_1": "D07_OLE",
+      "atom_2": "D07_ELA",
+      "order": 1
+    },
+    {
+      "atom_1": "D07_ELA",
+      "atom_2": "D07_ELB",
+      "order": 1
+    },
+    {
+      "atom_1": "D07_ERA",
+      "atom_2": "D07_HRA1",
+      "order": 1
+    },
+    {
+      "atom_1": "D07_ERA",
+      "atom_2": "D07_HRA2",
+      "order": 1
+    },
+    {
+      "atom_1": "D07_ERB",
+      "atom_2": "D07_HRB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D07_ERB",
+      "atom_2": "D07_HRB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D07_ERB",
+      "atom_2": "D07_HRB3",
+      "order": 1
+    },
+    {
+      "atom_1": "D07_CR",
+      "atom_2": "D07_ORC",
+      "order": 2
+    },
+    {
+      "atom_1": "D07_CR",
+      "atom_2": "D07_ORE",
+      "order": 1
+    },
+    {
+      "atom_1": "D07_ORE",
+      "atom_2": "D07_ERA",
+      "order": 1
+    },
+    {
+      "atom_1": "D07_ERA",
+      "atom_2": "D07_ERB",
+      "order": 1
+    },
+    {
+      "atom_1": "D07_B1",
+      "atom_2": "D07_B2",
+      "order": 1
+    },
+    {
+      "atom_1": "D07_B1",
+      "atom_2": "D07_HB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D07_B2",
+      "atom_2": "D07_HB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D07_B1",
+      "atom_2": "D07_CL",
+      "order": 1
+    },
+    {
+      "atom_1": "D07_B2",
+      "atom_2": "D07_CR",
+      "order": 1
+    },
+    {
+      "atom_1": "N06_V2",
+      "atom_2": "D07_B1",
+      "order": 1
+    },
+    {
+      "atom_1": "N07_V1",
+      "atom_2": "N07_HV11",
+      "order": 1
+    },
+    {
+      "atom_1": "N07_V1",
+      "atom_2": "N07_HV12",
+      "order": 1
+    },
+    {
+      "atom_1": "N07_V2",
+      "atom_2": "N07_HV2",
+      "order": 1
+    },
+    {
+      "atom_1": "N07_C3",
+      "atom_2": "N07_H31",
+      "order": 1
+    },
+    {
+      "atom_1": "N07_C3",
+      "atom_2": "N07_H32",
+      "order": 1
+    },
+    {
+      "atom_1": "N07_C4",
+      "atom_2": "N07_H41",
+      "order": 1
+    },
+    {
+      "atom_1": "N07_C4",
+      "atom_2": "N07_H42",
+      "order": 1
+    },
+    {
+      "atom_1": "N07_C5",
+      "atom_2": "N07_H51",
+      "order": 1
+    },
+    {
+      "atom_1": "N07_C5",
+      "atom_2": "N07_H52",
+      "order": 1
+    },
+    {
+      "atom_1": "D07_B2",
+      "atom_2": "N07_V1",
+      "order": 1
+    },
+    {
+      "atom_1": "N07_V1",
+      "atom_2": "N07_V2",
+      "order": 1
+    },
+    {
+      "atom_1": "N07_V2",
+      "atom_2": "N07_N",
+      "order": 1
+    },
+    {
+      "atom_1": "N07_N",
+      "atom_2": "N07_C0",
+      "order": 1
+    },
+    {
+      "atom_1": "N07_C0",
+      "atom_2": "N07_O0",
+      "order": 2
+    },
+    {
+      "atom_1": "N07_C0",
+      "atom_2": "N07_C3",
+      "order": 1
+    },
+    {
+      "atom_1": "N07_C3",
+      "atom_2": "N07_C4",
+      "order": 1
+    },
+    {
+      "atom_1": "N07_C4",
+      "atom_2": "N07_C5",
+      "order": 1
+    },
+    {
+      "atom_1": "N07_C5",
+      "atom_2": "N07_N",
+      "order": 1
+    },
+    {
+      "atom_1": "D08_ELA",
+      "atom_2": "D08_HLA1",
+      "order": 1
+    },
+    {
+      "atom_1": "D08_ELA",
+      "atom_2": "D08_HLA2",
+      "order": 1
+    },
+    {
+      "atom_1": "D08_ELB",
+      "atom_2": "D08_HLB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D08_ELB",
+      "atom_2": "D08_HLB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D08_ELB",
+      "atom_2": "D08_HLB3",
+      "order": 1
+    },
+    {
+      "atom_1": "D08_CL",
+      "atom_2": "D08_OLC",
+      "order": 2
+    },
+    {
+      "atom_1": "D08_CL",
+      "atom_2": "D08_OLE",
+      "order": 1
+    },
+    {
+      "atom_1": "D08_OLE",
+      "atom_2": "D08_ELA",
+      "order": 1
+    },
+    {
+      "atom_1": "D08_ELA",
+      "atom_2": "D08_ELB",
+      "order": 1
+    },
+    {
+      "atom_1": "D08_ERA",
+      "atom_2": "D08_HRA1",
+      "order": 1
+    },
+    {
+      "atom_1": "D08_ERA",
+      "atom_2": "D08_HRA2",
+      "order": 1
+    },
+    {
+      "atom_1": "D08_ERB",
+      "atom_2": "D08_HRB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D08_ERB",
+      "atom_2": "D08_HRB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D08_ERB",
+      "atom_2": "D08_HRB3",
+      "order": 1
+    },
+    {
+      "atom_1": "D08_CR",
+      "atom_2": "D08_ORC",
+      "order": 2
+    },
+    {
+      "atom_1": "D08_CR",
+      "atom_2": "D08_ORE",
+      "order": 1
+    },
+    {
+      "atom_1": "D08_ORE",
+      "atom_2": "D08_ERA",
+      "order": 1
+    },
+    {
+      "atom_1": "D08_ERA",
+      "atom_2": "D08_ERB",
+      "order": 1
+    },
+    {
+      "atom_1": "D08_B1",
+      "atom_2": "D08_B2",
+      "order": 1
+    },
+    {
+      "atom_1": "D08_B1",
+      "atom_2": "D08_HB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D08_B2",
+      "atom_2": "D08_HB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D08_B1",
+      "atom_2": "D08_CL",
+      "order": 1
+    },
+    {
+      "atom_1": "D08_B2",
+      "atom_2": "D08_CR",
+      "order": 1
+    },
+    {
+      "atom_1": "N07_V2",
+      "atom_2": "D08_B1",
+      "order": 1
+    },
+    {
+      "atom_1": "N08_V1",
+      "atom_2": "N08_HV11",
+      "order": 1
+    },
+    {
+      "atom_1": "N08_V1",
+      "atom_2": "N08_HV12",
+      "order": 1
+    },
+    {
+      "atom_1": "N08_V2",
+      "atom_2": "N08_HV2",
+      "order": 1
+    },
+    {
+      "atom_1": "N08_C3",
+      "atom_2": "N08_H31",
+      "order": 1
+    },
+    {
+      "atom_1": "N08_C3",
+      "atom_2": "N08_H32",
+      "order": 1
+    },
+    {
+      "atom_1": "N08_C4",
+      "atom_2": "N08_H41",
+      "order": 1
+    },
+    {
+      "atom_1": "N08_C4",
+      "atom_2": "N08_H42",
+      "order": 1
+    },
+    {
+      "atom_1": "N08_C5",
+      "atom_2": "N08_H51",
+      "order": 1
+    },
+    {
+      "atom_1": "N08_C5",
+      "atom_2": "N08_H52",
+      "order": 1
+    },
+    {
+      "atom_1": "D08_B2",
+      "atom_2": "N08_V1",
+      "order": 1
+    },
+    {
+      "atom_1": "N08_V1",
+      "atom_2": "N08_V2",
+      "order": 1
+    },
+    {
+      "atom_1": "N08_V2",
+      "atom_2": "N08_N",
+      "order": 1
+    },
+    {
+      "atom_1": "N08_N",
+      "atom_2": "N08_C0",
+      "order": 1
+    },
+    {
+      "atom_1": "N08_C0",
+      "atom_2": "N08_O0",
+      "order": 2
+    },
+    {
+      "atom_1": "N08_C0",
+      "atom_2": "N08_C3",
+      "order": 1
+    },
+    {
+      "atom_1": "N08_C3",
+      "atom_2": "N08_C4",
+      "order": 1
+    },
+    {
+      "atom_1": "N08_C4",
+      "atom_2": "N08_C5",
+      "order": 1
+    },
+    {
+      "atom_1": "N08_C5",
+      "atom_2": "N08_N",
+      "order": 1
+    },
+    {
+      "atom_1": "D09_ELA",
+      "atom_2": "D09_HLA1",
+      "order": 1
+    },
+    {
+      "atom_1": "D09_ELA",
+      "atom_2": "D09_HLA2",
+      "order": 1
+    },
+    {
+      "atom_1": "D09_ELB",
+      "atom_2": "D09_HLB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D09_ELB",
+      "atom_2": "D09_HLB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D09_ELB",
+      "atom_2": "D09_HLB3",
+      "order": 1
+    },
+    {
+      "atom_1": "D09_CL",
+      "atom_2": "D09_OLC",
+      "order": 2
+    },
+    {
+      "atom_1": "D09_CL",
+      "atom_2": "D09_OLE",
+      "order": 1
+    },
+    {
+      "atom_1": "D09_OLE",
+      "atom_2": "D09_ELA",
+      "order": 1
+    },
+    {
+      "atom_1": "D09_ELA",
+      "atom_2": "D09_ELB",
+      "order": 1
+    },
+    {
+      "atom_1": "D09_ERA",
+      "atom_2": "D09_HRA1",
+      "order": 1
+    },
+    {
+      "atom_1": "D09_ERA",
+      "atom_2": "D09_HRA2",
+      "order": 1
+    },
+    {
+      "atom_1": "D09_ERB",
+      "atom_2": "D09_HRB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D09_ERB",
+      "atom_2": "D09_HRB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D09_ERB",
+      "atom_2": "D09_HRB3",
+      "order": 1
+    },
+    {
+      "atom_1": "D09_CR",
+      "atom_2": "D09_ORC",
+      "order": 2
+    },
+    {
+      "atom_1": "D09_CR",
+      "atom_2": "D09_ORE",
+      "order": 1
+    },
+    {
+      "atom_1": "D09_ORE",
+      "atom_2": "D09_ERA",
+      "order": 1
+    },
+    {
+      "atom_1": "D09_ERA",
+      "atom_2": "D09_ERB",
+      "order": 1
+    },
+    {
+      "atom_1": "D09_B1",
+      "atom_2": "D09_B2",
+      "order": 1
+    },
+    {
+      "atom_1": "D09_B1",
+      "atom_2": "D09_HB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D09_B2",
+      "atom_2": "D09_HB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D09_B1",
+      "atom_2": "D09_CL",
+      "order": 1
+    },
+    {
+      "atom_1": "D09_B2",
+      "atom_2": "D09_CR",
+      "order": 1
+    },
+    {
+      "atom_1": "N08_V2",
+      "atom_2": "D09_B1",
+      "order": 1
+    },
+    {
+      "atom_1": "N09_V1",
+      "atom_2": "N09_HV11",
+      "order": 1
+    },
+    {
+      "atom_1": "N09_V1",
+      "atom_2": "N09_HV12",
+      "order": 1
+    },
+    {
+      "atom_1": "N09_V2",
+      "atom_2": "N09_HV2",
+      "order": 1
+    },
+    {
+      "atom_1": "N09_C3",
+      "atom_2": "N09_H31",
+      "order": 1
+    },
+    {
+      "atom_1": "N09_C3",
+      "atom_2": "N09_H32",
+      "order": 1
+    },
+    {
+      "atom_1": "N09_C4",
+      "atom_2": "N09_H41",
+      "order": 1
+    },
+    {
+      "atom_1": "N09_C4",
+      "atom_2": "N09_H42",
+      "order": 1
+    },
+    {
+      "atom_1": "N09_C5",
+      "atom_2": "N09_H51",
+      "order": 1
+    },
+    {
+      "atom_1": "N09_C5",
+      "atom_2": "N09_H52",
+      "order": 1
+    },
+    {
+      "atom_1": "D09_B2",
+      "atom_2": "N09_V1",
+      "order": 1
+    },
+    {
+      "atom_1": "N09_V1",
+      "atom_2": "N09_V2",
+      "order": 1
+    },
+    {
+      "atom_1": "N09_V2",
+      "atom_2": "N09_N",
+      "order": 1
+    },
+    {
+      "atom_1": "N09_N",
+      "atom_2": "N09_C0",
+      "order": 1
+    },
+    {
+      "atom_1": "N09_C0",
+      "atom_2": "N09_O0",
+      "order": 2
+    },
+    {
+      "atom_1": "N09_C0",
+      "atom_2": "N09_C3",
+      "order": 1
+    },
+    {
+      "atom_1": "N09_C3",
+      "atom_2": "N09_C4",
+      "order": 1
+    },
+    {
+      "atom_1": "N09_C4",
+      "atom_2": "N09_C5",
+      "order": 1
+    },
+    {
+      "atom_1": "N09_C5",
+      "atom_2": "N09_N",
+      "order": 1
+    },
+    {
+      "atom_1": "D10_ELA",
+      "atom_2": "D10_HLA1",
+      "order": 1
+    },
+    {
+      "atom_1": "D10_ELA",
+      "atom_2": "D10_HLA2",
+      "order": 1
+    },
+    {
+      "atom_1": "D10_ELB",
+      "atom_2": "D10_HLB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D10_ELB",
+      "atom_2": "D10_HLB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D10_ELB",
+      "atom_2": "D10_HLB3",
+      "order": 1
+    },
+    {
+      "atom_1": "D10_CL",
+      "atom_2": "D10_OLC",
+      "order": 2
+    },
+    {
+      "atom_1": "D10_CL",
+      "atom_2": "D10_OLE",
+      "order": 1
+    },
+    {
+      "atom_1": "D10_OLE",
+      "atom_2": "D10_ELA",
+      "order": 1
+    },
+    {
+      "atom_1": "D10_ELA",
+      "atom_2": "D10_ELB",
+      "order": 1
+    },
+    {
+      "atom_1": "D10_ERA",
+      "atom_2": "D10_HRA1",
+      "order": 1
+    },
+    {
+      "atom_1": "D10_ERA",
+      "atom_2": "D10_HRA2",
+      "order": 1
+    },
+    {
+      "atom_1": "D10_ERB",
+      "atom_2": "D10_HRB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D10_ERB",
+      "atom_2": "D10_HRB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D10_ERB",
+      "atom_2": "D10_HRB3",
+      "order": 1
+    },
+    {
+      "atom_1": "D10_CR",
+      "atom_2": "D10_ORC",
+      "order": 2
+    },
+    {
+      "atom_1": "D10_CR",
+      "atom_2": "D10_ORE",
+      "order": 1
+    },
+    {
+      "atom_1": "D10_ORE",
+      "atom_2": "D10_ERA",
+      "order": 1
+    },
+    {
+      "atom_1": "D10_ERA",
+      "atom_2": "D10_ERB",
+      "order": 1
+    },
+    {
+      "atom_1": "D10_B1",
+      "atom_2": "D10_B2",
+      "order": 1
+    },
+    {
+      "atom_1": "D10_B1",
+      "atom_2": "D10_HB1",
+      "order": 1
+    },
+    {
+      "atom_1": "D10_B2",
+      "atom_2": "D10_HB2",
+      "order": 1
+    },
+    {
+      "atom_1": "D10_B1",
+      "atom_2": "D10_CL",
+      "order": 1
+    },
+    {
+      "atom_1": "D10_B2",
+      "atom_2": "D10_CR",
+      "order": 1
+    },
+    {
+      "atom_1": "N09_V2",
+      "atom_2": "D10_B1",
+      "order": 1
+    },
+    {
+      "atom_1": "N10_V1",
+      "atom_2": "N10_HV11",
+      "order": 1
+    },
+    {
+      "atom_1": "N10_V1",
+      "atom_2": "N10_HV12",
+      "order": 1
+    },
+    {
+      "atom_1": "N10_V2",
+      "atom_2": "N10_HV2",
+      "order": 1
+    },
+    {
+      "atom_1": "N10_C3",
+      "atom_2": "N10_H31",
+      "order": 1
+    },
+    {
+      "atom_1": "N10_C3",
+      "atom_2": "N10_H32",
+      "order": 1
+    },
+    {
+      "atom_1": "N10_C4",
+      "atom_2": "N10_H41",
+      "order": 1
+    },
+    {
+      "atom_1": "N10_C4",
+      "atom_2": "N10_H42",
+      "order": 1
+    },
+    {
+      "atom_1": "N10_C5",
+      "atom_2": "N10_H51",
+      "order": 1
+    },
+    {
+      "atom_1": "N10_C5",
+      "atom_2": "N10_H52",
+      "order": 1
+    },
+    {
+      "atom_1": "D10_B2",
+      "atom_2": "N10_V1",
+      "order": 1
+    },
+    {
+      "atom_1": "N10_V1",
+      "atom_2": "N10_V2",
+      "order": 1
+    },
+    {
+      "atom_1": "N10_V2",
+      "atom_2": "N10_N",
+      "order": 1
+    },
+    {
+      "atom_1": "N10_N",
+      "atom_2": "N10_C0",
+      "order": 1
+    },
+    {
+      "atom_1": "N10_C0",
+      "atom_2": "N10_O0",
+      "order": 2
+    },
+    {
+      "atom_1": "N10_C0",
+      "atom_2": "N10_C3",
+      "order": 1
+    },
+    {
+      "atom_1": "N10_C3",
+      "atom_2": "N10_C4",
+      "order": 1
+    },
+    {
+      "atom_1": "N10_C4",
+      "atom_2": "N10_C5",
+      "order": 1
+    },
+    {
+      "atom_1": "N10_C5",
+      "atom_2": "N10_N",
+      "order": 1
+    },
+    {
+      "atom_1": "TERM_START_H",
+      "atom_2": "D01_B1",
+      "order": 1
+    },
+    {
+      "atom_1": "TERM_END_H",
+      "atom_2": "N10_V2",
+      "order": 1
+    }
+  ],
+  "analysis_groups": {
+    "dem_ester_alkoxy_oxygens": [
+      {
+        "name": "D01_OLE",
+        "index": 7
+      },
+      {
+        "name": "D01_ORE",
+        "index": 17
+      },
+      {
+        "name": "D02_OLE",
+        "index": 48
+      },
+      {
+        "name": "D02_ORE",
+        "index": 58
+      },
+      {
+        "name": "D03_OLE",
+        "index": 89
+      },
+      {
+        "name": "D03_ORE",
+        "index": 99
+      },
+      {
+        "name": "D04_OLE",
+        "index": 130
+      },
+      {
+        "name": "D04_ORE",
+        "index": 140
+      },
+      {
+        "name": "D05_OLE",
+        "index": 171
+      },
+      {
+        "name": "D05_ORE",
+        "index": 181
+      },
+      {
+        "name": "D06_OLE",
+        "index": 212
+      },
+      {
+        "name": "D06_ORE",
+        "index": 222
+      },
+      {
+        "name": "D07_OLE",
+        "index": 253
+      },
+      {
+        "name": "D07_ORE",
+        "index": 263
+      },
+      {
+        "name": "D08_OLE",
+        "index": 294
+      },
+      {
+        "name": "D08_ORE",
+        "index": 304
+      },
+      {
+        "name": "D09_OLE",
+        "index": 335
+      },
+      {
+        "name": "D09_ORE",
+        "index": 345
+      },
+      {
+        "name": "D10_OLE",
+        "index": 376
+      },
+      {
+        "name": "D10_ORE",
+        "index": 386
+      }
+    ],
+    "dem_ester_carbonyl_oxygens": [
+      {
+        "name": "D01_OLC",
+        "index": 6
+      },
+      {
+        "name": "D01_ORC",
+        "index": 16
+      },
+      {
+        "name": "D02_OLC",
+        "index": 47
+      },
+      {
+        "name": "D02_ORC",
+        "index": 57
+      },
+      {
+        "name": "D03_OLC",
+        "index": 88
+      },
+      {
+        "name": "D03_ORC",
+        "index": 98
+      },
+      {
+        "name": "D04_OLC",
+        "index": 129
+      },
+      {
+        "name": "D04_ORC",
+        "index": 139
+      },
+      {
+        "name": "D05_OLC",
+        "index": 170
+      },
+      {
+        "name": "D05_ORC",
+        "index": 180
+      },
+      {
+        "name": "D06_OLC",
+        "index": 211
+      },
+      {
+        "name": "D06_ORC",
+        "index": 221
+      },
+      {
+        "name": "D07_OLC",
+        "index": 252
+      },
+      {
+        "name": "D07_ORC",
+        "index": 262
+      },
+      {
+        "name": "D08_OLC",
+        "index": 293
+      },
+      {
+        "name": "D08_ORC",
+        "index": 303
+      },
+      {
+        "name": "D09_OLC",
+        "index": 334
+      },
+      {
+        "name": "D09_ORC",
+        "index": 344
+      },
+      {
+        "name": "D10_OLC",
+        "index": 375
+      },
+      {
+        "name": "D10_ORC",
+        "index": 385
+      }
+    ],
+    "dem_ethyl_carbons": [
+      {
+        "name": "D01_ELA",
+        "index": 8
+      },
+      {
+        "name": "D01_ELB",
+        "index": 9
+      },
+      {
+        "name": "D01_ERA",
+        "index": 18
+      },
+      {
+        "name": "D01_ERB",
+        "index": 19
+      },
+      {
+        "name": "D02_ELA",
+        "index": 49
+      },
+      {
+        "name": "D02_ELB",
+        "index": 50
+      },
+      {
+        "name": "D02_ERA",
+        "index": 59
+      },
+      {
+        "name": "D02_ERB",
+        "index": 60
+      },
+      {
+        "name": "D03_ELA",
+        "index": 90
+      },
+      {
+        "name": "D03_ELB",
+        "index": 91
+      },
+      {
+        "name": "D03_ERA",
+        "index": 100
+      },
+      {
+        "name": "D03_ERB",
+        "index": 101
+      },
+      {
+        "name": "D04_ELA",
+        "index": 131
+      },
+      {
+        "name": "D04_ELB",
+        "index": 132
+      },
+      {
+        "name": "D04_ERA",
+        "index": 141
+      },
+      {
+        "name": "D04_ERB",
+        "index": 142
+      },
+      {
+        "name": "D05_ELA",
+        "index": 172
+      },
+      {
+        "name": "D05_ELB",
+        "index": 173
+      },
+      {
+        "name": "D05_ERA",
+        "index": 182
+      },
+      {
+        "name": "D05_ERB",
+        "index": 183
+      },
+      {
+        "name": "D06_ELA",
+        "index": 213
+      },
+      {
+        "name": "D06_ELB",
+        "index": 214
+      },
+      {
+        "name": "D06_ERA",
+        "index": 223
+      },
+      {
+        "name": "D06_ERB",
+        "index": 224
+      },
+      {
+        "name": "D07_ELA",
+        "index": 254
+      },
+      {
+        "name": "D07_ELB",
+        "index": 255
+      },
+      {
+        "name": "D07_ERA",
+        "index": 264
+      },
+      {
+        "name": "D07_ERB",
+        "index": 265
+      },
+      {
+        "name": "D08_ELA",
+        "index": 295
+      },
+      {
+        "name": "D08_ELB",
+        "index": 296
+      },
+      {
+        "name": "D08_ERA",
+        "index": 305
+      },
+      {
+        "name": "D08_ERB",
+        "index": 306
+      },
+      {
+        "name": "D09_ELA",
+        "index": 336
+      },
+      {
+        "name": "D09_ELB",
+        "index": 337
+      },
+      {
+        "name": "D09_ERA",
+        "index": 346
+      },
+      {
+        "name": "D09_ERB",
+        "index": 347
+      },
+      {
+        "name": "D10_ELA",
+        "index": 377
+      },
+      {
+        "name": "D10_ELB",
+        "index": 378
+      },
+      {
+        "name": "D10_ERA",
+        "index": 387
+      },
+      {
+        "name": "D10_ERB",
+        "index": 388
+      }
+    ],
+    "nvp_lactam_carbonyl_oxygens": [
+      {
+        "name": "N01_O0",
+        "index": 29
+      },
+      {
+        "name": "N02_O0",
+        "index": 70
+      },
+      {
+        "name": "N03_O0",
+        "index": 111
+      },
+      {
+        "name": "N04_O0",
+        "index": 152
+      },
+      {
+        "name": "N05_O0",
+        "index": 193
+      },
+      {
+        "name": "N06_O0",
+        "index": 234
+      },
+      {
+        "name": "N07_O0",
+        "index": 275
+      },
+      {
+        "name": "N08_O0",
+        "index": 316
+      },
+      {
+        "name": "N09_O0",
+        "index": 357
+      },
+      {
+        "name": "N10_O0",
+        "index": 398
+      }
+    ],
+    "nvp_ring_atoms": [
+      {
+        "name": "N01_N",
+        "index": 27
+      },
+      {
+        "name": "N01_C0",
+        "index": 28
+      },
+      {
+        "name": "N01_O0",
+        "index": 29
+      },
+      {
+        "name": "N01_C3",
+        "index": 30
+      },
+      {
+        "name": "N01_C4",
+        "index": 31
+      },
+      {
+        "name": "N01_C5",
+        "index": 32
+      },
+      {
+        "name": "N02_N",
+        "index": 68
+      },
+      {
+        "name": "N02_C0",
+        "index": 69
+      },
+      {
+        "name": "N02_O0",
+        "index": 70
+      },
+      {
+        "name": "N02_C3",
+        "index": 71
+      },
+      {
+        "name": "N02_C4",
+        "index": 72
+      },
+      {
+        "name": "N02_C5",
+        "index": 73
+      },
+      {
+        "name": "N03_N",
+        "index": 109
+      },
+      {
+        "name": "N03_C0",
+        "index": 110
+      },
+      {
+        "name": "N03_O0",
+        "index": 111
+      },
+      {
+        "name": "N03_C3",
+        "index": 112
+      },
+      {
+        "name": "N03_C4",
+        "index": 113
+      },
+      {
+        "name": "N03_C5",
+        "index": 114
+      },
+      {
+        "name": "N04_N",
+        "index": 150
+      },
+      {
+        "name": "N04_C0",
+        "index": 151
+      },
+      {
+        "name": "N04_O0",
+        "index": 152
+      },
+      {
+        "name": "N04_C3",
+        "index": 153
+      },
+      {
+        "name": "N04_C4",
+        "index": 154
+      },
+      {
+        "name": "N04_C5",
+        "index": 155
+      },
+      {
+        "name": "N05_N",
+        "index": 191
+      },
+      {
+        "name": "N05_C0",
+        "index": 192
+      },
+      {
+        "name": "N05_O0",
+        "index": 193
+      },
+      {
+        "name": "N05_C3",
+        "index": 194
+      },
+      {
+        "name": "N05_C4",
+        "index": 195
+      },
+      {
+        "name": "N05_C5",
+        "index": 196
+      },
+      {
+        "name": "N06_N",
+        "index": 232
+      },
+      {
+        "name": "N06_C0",
+        "index": 233
+      },
+      {
+        "name": "N06_O0",
+        "index": 234
+      },
+      {
+        "name": "N06_C3",
+        "index": 235
+      },
+      {
+        "name": "N06_C4",
+        "index": 236
+      },
+      {
+        "name": "N06_C5",
+        "index": 237
+      },
+      {
+        "name": "N07_N",
+        "index": 273
+      },
+      {
+        "name": "N07_C0",
+        "index": 274
+      },
+      {
+        "name": "N07_O0",
+        "index": 275
+      },
+      {
+        "name": "N07_C3",
+        "index": 276
+      },
+      {
+        "name": "N07_C4",
+        "index": 277
+      },
+      {
+        "name": "N07_C5",
+        "index": 278
+      },
+      {
+        "name": "N08_N",
+        "index": 314
+      },
+      {
+        "name": "N08_C0",
+        "index": 315
+      },
+      {
+        "name": "N08_O0",
+        "index": 316
+      },
+      {
+        "name": "N08_C3",
+        "index": 317
+      },
+      {
+        "name": "N08_C4",
+        "index": 318
+      },
+      {
+        "name": "N08_C5",
+        "index": 319
+      },
+      {
+        "name": "N09_N",
+        "index": 355
+      },
+      {
+        "name": "N09_C0",
+        "index": 356
+      },
+      {
+        "name": "N09_O0",
+        "index": 357
+      },
+      {
+        "name": "N09_C3",
+        "index": 358
+      },
+      {
+        "name": "N09_C4",
+        "index": 359
+      },
+      {
+        "name": "N09_C5",
+        "index": 360
+      },
+      {
+        "name": "N10_N",
+        "index": 396
+      },
+      {
+        "name": "N10_C0",
+        "index": 397
+      },
+      {
+        "name": "N10_O0",
+        "index": 398
+      },
+      {
+        "name": "N10_C3",
+        "index": 399
+      },
+      {
+        "name": "N10_C4",
+        "index": 400
+      },
+      {
+        "name": "N10_C5",
+        "index": 401
+      }
+    ],
+    "polymer_all": [
+      {
+        "name": "D01_B1",
+        "index": 1
+      },
+      {
+        "name": "D01_HB1",
+        "index": 2
+      },
+      {
+        "name": "D01_B2",
+        "index": 3
+      },
+      {
+        "name": "D01_HB2",
+        "index": 4
+      },
+      {
+        "name": "D01_CL",
+        "index": 5
+      },
+      {
+        "name": "D01_OLC",
+        "index": 6
+      },
+      {
+        "name": "D01_OLE",
+        "index": 7
+      },
+      {
+        "name": "D01_ELA",
+        "index": 8
+      },
+      {
+        "name": "D01_ELB",
+        "index": 9
+      },
+      {
+        "name": "D01_HLA1",
+        "index": 10
+      },
+      {
+        "name": "D01_HLA2",
+        "index": 11
+      },
+      {
+        "name": "D01_HLB1",
+        "index": 12
+      },
+      {
+        "name": "D01_HLB2",
+        "index": 13
+      },
+      {
+        "name": "D01_HLB3",
+        "index": 14
+      },
+      {
+        "name": "D01_CR",
+        "index": 15
+      },
+      {
+        "name": "D01_ORC",
+        "index": 16
+      },
+      {
+        "name": "D01_ORE",
+        "index": 17
+      },
+      {
+        "name": "D01_ERA",
+        "index": 18
+      },
+      {
+        "name": "D01_ERB",
+        "index": 19
+      },
+      {
+        "name": "D01_HRA1",
+        "index": 20
+      },
+      {
+        "name": "D01_HRA2",
+        "index": 21
+      },
+      {
+        "name": "D01_HRB1",
+        "index": 22
+      },
+      {
+        "name": "D01_HRB2",
+        "index": 23
+      },
+      {
+        "name": "D01_HRB3",
+        "index": 24
+      },
+      {
+        "name": "N01_V1",
+        "index": 25
+      },
+      {
+        "name": "N01_V2",
+        "index": 26
+      },
+      {
+        "name": "N01_N",
+        "index": 27
+      },
+      {
+        "name": "N01_C0",
+        "index": 28
+      },
+      {
+        "name": "N01_O0",
+        "index": 29
+      },
+      {
+        "name": "N01_C3",
+        "index": 30
+      },
+      {
+        "name": "N01_C4",
+        "index": 31
+      },
+      {
+        "name": "N01_C5",
+        "index": 32
+      },
+      {
+        "name": "N01_HV11",
+        "index": 33
+      },
+      {
+        "name": "N01_HV12",
+        "index": 34
+      },
+      {
+        "name": "N01_HV2",
+        "index": 35
+      },
+      {
+        "name": "N01_H31",
+        "index": 36
+      },
+      {
+        "name": "N01_H32",
+        "index": 37
+      },
+      {
+        "name": "N01_H41",
+        "index": 38
+      },
+      {
+        "name": "N01_H42",
+        "index": 39
+      },
+      {
+        "name": "N01_H51",
+        "index": 40
+      },
+      {
+        "name": "N01_H52",
+        "index": 41
+      },
+      {
+        "name": "D02_B1",
+        "index": 42
+      },
+      {
+        "name": "D02_HB1",
+        "index": 43
+      },
+      {
+        "name": "D02_B2",
+        "index": 44
+      },
+      {
+        "name": "D02_HB2",
+        "index": 45
+      },
+      {
+        "name": "D02_CL",
+        "index": 46
+      },
+      {
+        "name": "D02_OLC",
+        "index": 47
+      },
+      {
+        "name": "D02_OLE",
+        "index": 48
+      },
+      {
+        "name": "D02_ELA",
+        "index": 49
+      },
+      {
+        "name": "D02_ELB",
+        "index": 50
+      },
+      {
+        "name": "D02_HLA1",
+        "index": 51
+      },
+      {
+        "name": "D02_HLA2",
+        "index": 52
+      },
+      {
+        "name": "D02_HLB1",
+        "index": 53
+      },
+      {
+        "name": "D02_HLB2",
+        "index": 54
+      },
+      {
+        "name": "D02_HLB3",
+        "index": 55
+      },
+      {
+        "name": "D02_CR",
+        "index": 56
+      },
+      {
+        "name": "D02_ORC",
+        "index": 57
+      },
+      {
+        "name": "D02_ORE",
+        "index": 58
+      },
+      {
+        "name": "D02_ERA",
+        "index": 59
+      },
+      {
+        "name": "D02_ERB",
+        "index": 60
+      },
+      {
+        "name": "D02_HRA1",
+        "index": 61
+      },
+      {
+        "name": "D02_HRA2",
+        "index": 62
+      },
+      {
+        "name": "D02_HRB1",
+        "index": 63
+      },
+      {
+        "name": "D02_HRB2",
+        "index": 64
+      },
+      {
+        "name": "D02_HRB3",
+        "index": 65
+      },
+      {
+        "name": "N02_V1",
+        "index": 66
+      },
+      {
+        "name": "N02_V2",
+        "index": 67
+      },
+      {
+        "name": "N02_N",
+        "index": 68
+      },
+      {
+        "name": "N02_C0",
+        "index": 69
+      },
+      {
+        "name": "N02_O0",
+        "index": 70
+      },
+      {
+        "name": "N02_C3",
+        "index": 71
+      },
+      {
+        "name": "N02_C4",
+        "index": 72
+      },
+      {
+        "name": "N02_C5",
+        "index": 73
+      },
+      {
+        "name": "N02_HV11",
+        "index": 74
+      },
+      {
+        "name": "N02_HV12",
+        "index": 75
+      },
+      {
+        "name": "N02_HV2",
+        "index": 76
+      },
+      {
+        "name": "N02_H31",
+        "index": 77
+      },
+      {
+        "name": "N02_H32",
+        "index": 78
+      },
+      {
+        "name": "N02_H41",
+        "index": 79
+      },
+      {
+        "name": "N02_H42",
+        "index": 80
+      },
+      {
+        "name": "N02_H51",
+        "index": 81
+      },
+      {
+        "name": "N02_H52",
+        "index": 82
+      },
+      {
+        "name": "D03_B1",
+        "index": 83
+      },
+      {
+        "name": "D03_HB1",
+        "index": 84
+      },
+      {
+        "name": "D03_B2",
+        "index": 85
+      },
+      {
+        "name": "D03_HB2",
+        "index": 86
+      },
+      {
+        "name": "D03_CL",
+        "index": 87
+      },
+      {
+        "name": "D03_OLC",
+        "index": 88
+      },
+      {
+        "name": "D03_OLE",
+        "index": 89
+      },
+      {
+        "name": "D03_ELA",
+        "index": 90
+      },
+      {
+        "name": "D03_ELB",
+        "index": 91
+      },
+      {
+        "name": "D03_HLA1",
+        "index": 92
+      },
+      {
+        "name": "D03_HLA2",
+        "index": 93
+      },
+      {
+        "name": "D03_HLB1",
+        "index": 94
+      },
+      {
+        "name": "D03_HLB2",
+        "index": 95
+      },
+      {
+        "name": "D03_HLB3",
+        "index": 96
+      },
+      {
+        "name": "D03_CR",
+        "index": 97
+      },
+      {
+        "name": "D03_ORC",
+        "index": 98
+      },
+      {
+        "name": "D03_ORE",
+        "index": 99
+      },
+      {
+        "name": "D03_ERA",
+        "index": 100
+      },
+      {
+        "name": "D03_ERB",
+        "index": 101
+      },
+      {
+        "name": "D03_HRA1",
+        "index": 102
+      },
+      {
+        "name": "D03_HRA2",
+        "index": 103
+      },
+      {
+        "name": "D03_HRB1",
+        "index": 104
+      },
+      {
+        "name": "D03_HRB2",
+        "index": 105
+      },
+      {
+        "name": "D03_HRB3",
+        "index": 106
+      },
+      {
+        "name": "N03_V1",
+        "index": 107
+      },
+      {
+        "name": "N03_V2",
+        "index": 108
+      },
+      {
+        "name": "N03_N",
+        "index": 109
+      },
+      {
+        "name": "N03_C0",
+        "index": 110
+      },
+      {
+        "name": "N03_O0",
+        "index": 111
+      },
+      {
+        "name": "N03_C3",
+        "index": 112
+      },
+      {
+        "name": "N03_C4",
+        "index": 113
+      },
+      {
+        "name": "N03_C5",
+        "index": 114
+      },
+      {
+        "name": "N03_HV11",
+        "index": 115
+      },
+      {
+        "name": "N03_HV12",
+        "index": 116
+      },
+      {
+        "name": "N03_HV2",
+        "index": 117
+      },
+      {
+        "name": "N03_H31",
+        "index": 118
+      },
+      {
+        "name": "N03_H32",
+        "index": 119
+      },
+      {
+        "name": "N03_H41",
+        "index": 120
+      },
+      {
+        "name": "N03_H42",
+        "index": 121
+      },
+      {
+        "name": "N03_H51",
+        "index": 122
+      },
+      {
+        "name": "N03_H52",
+        "index": 123
+      },
+      {
+        "name": "D04_B1",
+        "index": 124
+      },
+      {
+        "name": "D04_HB1",
+        "index": 125
+      },
+      {
+        "name": "D04_B2",
+        "index": 126
+      },
+      {
+        "name": "D04_HB2",
+        "index": 127
+      },
+      {
+        "name": "D04_CL",
+        "index": 128
+      },
+      {
+        "name": "D04_OLC",
+        "index": 129
+      },
+      {
+        "name": "D04_OLE",
+        "index": 130
+      },
+      {
+        "name": "D04_ELA",
+        "index": 131
+      },
+      {
+        "name": "D04_ELB",
+        "index": 132
+      },
+      {
+        "name": "D04_HLA1",
+        "index": 133
+      },
+      {
+        "name": "D04_HLA2",
+        "index": 134
+      },
+      {
+        "name": "D04_HLB1",
+        "index": 135
+      },
+      {
+        "name": "D04_HLB2",
+        "index": 136
+      },
+      {
+        "name": "D04_HLB3",
+        "index": 137
+      },
+      {
+        "name": "D04_CR",
+        "index": 138
+      },
+      {
+        "name": "D04_ORC",
+        "index": 139
+      },
+      {
+        "name": "D04_ORE",
+        "index": 140
+      },
+      {
+        "name": "D04_ERA",
+        "index": 141
+      },
+      {
+        "name": "D04_ERB",
+        "index": 142
+      },
+      {
+        "name": "D04_HRA1",
+        "index": 143
+      },
+      {
+        "name": "D04_HRA2",
+        "index": 144
+      },
+      {
+        "name": "D04_HRB1",
+        "index": 145
+      },
+      {
+        "name": "D04_HRB2",
+        "index": 146
+      },
+      {
+        "name": "D04_HRB3",
+        "index": 147
+      },
+      {
+        "name": "N04_V1",
+        "index": 148
+      },
+      {
+        "name": "N04_V2",
+        "index": 149
+      },
+      {
+        "name": "N04_N",
+        "index": 150
+      },
+      {
+        "name": "N04_C0",
+        "index": 151
+      },
+      {
+        "name": "N04_O0",
+        "index": 152
+      },
+      {
+        "name": "N04_C3",
+        "index": 153
+      },
+      {
+        "name": "N04_C4",
+        "index": 154
+      },
+      {
+        "name": "N04_C5",
+        "index": 155
+      },
+      {
+        "name": "N04_HV11",
+        "index": 156
+      },
+      {
+        "name": "N04_HV12",
+        "index": 157
+      },
+      {
+        "name": "N04_HV2",
+        "index": 158
+      },
+      {
+        "name": "N04_H31",
+        "index": 159
+      },
+      {
+        "name": "N04_H32",
+        "index": 160
+      },
+      {
+        "name": "N04_H41",
+        "index": 161
+      },
+      {
+        "name": "N04_H42",
+        "index": 162
+      },
+      {
+        "name": "N04_H51",
+        "index": 163
+      },
+      {
+        "name": "N04_H52",
+        "index": 164
+      },
+      {
+        "name": "D05_B1",
+        "index": 165
+      },
+      {
+        "name": "D05_HB1",
+        "index": 166
+      },
+      {
+        "name": "D05_B2",
+        "index": 167
+      },
+      {
+        "name": "D05_HB2",
+        "index": 168
+      },
+      {
+        "name": "D05_CL",
+        "index": 169
+      },
+      {
+        "name": "D05_OLC",
+        "index": 170
+      },
+      {
+        "name": "D05_OLE",
+        "index": 171
+      },
+      {
+        "name": "D05_ELA",
+        "index": 172
+      },
+      {
+        "name": "D05_ELB",
+        "index": 173
+      },
+      {
+        "name": "D05_HLA1",
+        "index": 174
+      },
+      {
+        "name": "D05_HLA2",
+        "index": 175
+      },
+      {
+        "name": "D05_HLB1",
+        "index": 176
+      },
+      {
+        "name": "D05_HLB2",
+        "index": 177
+      },
+      {
+        "name": "D05_HLB3",
+        "index": 178
+      },
+      {
+        "name": "D05_CR",
+        "index": 179
+      },
+      {
+        "name": "D05_ORC",
+        "index": 180
+      },
+      {
+        "name": "D05_ORE",
+        "index": 181
+      },
+      {
+        "name": "D05_ERA",
+        "index": 182
+      },
+      {
+        "name": "D05_ERB",
+        "index": 183
+      },
+      {
+        "name": "D05_HRA1",
+        "index": 184
+      },
+      {
+        "name": "D05_HRA2",
+        "index": 185
+      },
+      {
+        "name": "D05_HRB1",
+        "index": 186
+      },
+      {
+        "name": "D05_HRB2",
+        "index": 187
+      },
+      {
+        "name": "D05_HRB3",
+        "index": 188
+      },
+      {
+        "name": "N05_V1",
+        "index": 189
+      },
+      {
+        "name": "N05_V2",
+        "index": 190
+      },
+      {
+        "name": "N05_N",
+        "index": 191
+      },
+      {
+        "name": "N05_C0",
+        "index": 192
+      },
+      {
+        "name": "N05_O0",
+        "index": 193
+      },
+      {
+        "name": "N05_C3",
+        "index": 194
+      },
+      {
+        "name": "N05_C4",
+        "index": 195
+      },
+      {
+        "name": "N05_C5",
+        "index": 196
+      },
+      {
+        "name": "N05_HV11",
+        "index": 197
+      },
+      {
+        "name": "N05_HV12",
+        "index": 198
+      },
+      {
+        "name": "N05_HV2",
+        "index": 199
+      },
+      {
+        "name": "N05_H31",
+        "index": 200
+      },
+      {
+        "name": "N05_H32",
+        "index": 201
+      },
+      {
+        "name": "N05_H41",
+        "index": 202
+      },
+      {
+        "name": "N05_H42",
+        "index": 203
+      },
+      {
+        "name": "N05_H51",
+        "index": 204
+      },
+      {
+        "name": "N05_H52",
+        "index": 205
+      },
+      {
+        "name": "D06_B1",
+        "index": 206
+      },
+      {
+        "name": "D06_HB1",
+        "index": 207
+      },
+      {
+        "name": "D06_B2",
+        "index": 208
+      },
+      {
+        "name": "D06_HB2",
+        "index": 209
+      },
+      {
+        "name": "D06_CL",
+        "index": 210
+      },
+      {
+        "name": "D06_OLC",
+        "index": 211
+      },
+      {
+        "name": "D06_OLE",
+        "index": 212
+      },
+      {
+        "name": "D06_ELA",
+        "index": 213
+      },
+      {
+        "name": "D06_ELB",
+        "index": 214
+      },
+      {
+        "name": "D06_HLA1",
+        "index": 215
+      },
+      {
+        "name": "D06_HLA2",
+        "index": 216
+      },
+      {
+        "name": "D06_HLB1",
+        "index": 217
+      },
+      {
+        "name": "D06_HLB2",
+        "index": 218
+      },
+      {
+        "name": "D06_HLB3",
+        "index": 219
+      },
+      {
+        "name": "D06_CR",
+        "index": 220
+      },
+      {
+        "name": "D06_ORC",
+        "index": 221
+      },
+      {
+        "name": "D06_ORE",
+        "index": 222
+      },
+      {
+        "name": "D06_ERA",
+        "index": 223
+      },
+      {
+        "name": "D06_ERB",
+        "index": 224
+      },
+      {
+        "name": "D06_HRA1",
+        "index": 225
+      },
+      {
+        "name": "D06_HRA2",
+        "index": 226
+      },
+      {
+        "name": "D06_HRB1",
+        "index": 227
+      },
+      {
+        "name": "D06_HRB2",
+        "index": 228
+      },
+      {
+        "name": "D06_HRB3",
+        "index": 229
+      },
+      {
+        "name": "N06_V1",
+        "index": 230
+      },
+      {
+        "name": "N06_V2",
+        "index": 231
+      },
+      {
+        "name": "N06_N",
+        "index": 232
+      },
+      {
+        "name": "N06_C0",
+        "index": 233
+      },
+      {
+        "name": "N06_O0",
+        "index": 234
+      },
+      {
+        "name": "N06_C3",
+        "index": 235
+      },
+      {
+        "name": "N06_C4",
+        "index": 236
+      },
+      {
+        "name": "N06_C5",
+        "index": 237
+      },
+      {
+        "name": "N06_HV11",
+        "index": 238
+      },
+      {
+        "name": "N06_HV12",
+        "index": 239
+      },
+      {
+        "name": "N06_HV2",
+        "index": 240
+      },
+      {
+        "name": "N06_H31",
+        "index": 241
+      },
+      {
+        "name": "N06_H32",
+        "index": 242
+      },
+      {
+        "name": "N06_H41",
+        "index": 243
+      },
+      {
+        "name": "N06_H42",
+        "index": 244
+      },
+      {
+        "name": "N06_H51",
+        "index": 245
+      },
+      {
+        "name": "N06_H52",
+        "index": 246
+      },
+      {
+        "name": "D07_B1",
+        "index": 247
+      },
+      {
+        "name": "D07_HB1",
+        "index": 248
+      },
+      {
+        "name": "D07_B2",
+        "index": 249
+      },
+      {
+        "name": "D07_HB2",
+        "index": 250
+      },
+      {
+        "name": "D07_CL",
+        "index": 251
+      },
+      {
+        "name": "D07_OLC",
+        "index": 252
+      },
+      {
+        "name": "D07_OLE",
+        "index": 253
+      },
+      {
+        "name": "D07_ELA",
+        "index": 254
+      },
+      {
+        "name": "D07_ELB",
+        "index": 255
+      },
+      {
+        "name": "D07_HLA1",
+        "index": 256
+      },
+      {
+        "name": "D07_HLA2",
+        "index": 257
+      },
+      {
+        "name": "D07_HLB1",
+        "index": 258
+      },
+      {
+        "name": "D07_HLB2",
+        "index": 259
+      },
+      {
+        "name": "D07_HLB3",
+        "index": 260
+      },
+      {
+        "name": "D07_CR",
+        "index": 261
+      },
+      {
+        "name": "D07_ORC",
+        "index": 262
+      },
+      {
+        "name": "D07_ORE",
+        "index": 263
+      },
+      {
+        "name": "D07_ERA",
+        "index": 264
+      },
+      {
+        "name": "D07_ERB",
+        "index": 265
+      },
+      {
+        "name": "D07_HRA1",
+        "index": 266
+      },
+      {
+        "name": "D07_HRA2",
+        "index": 267
+      },
+      {
+        "name": "D07_HRB1",
+        "index": 268
+      },
+      {
+        "name": "D07_HRB2",
+        "index": 269
+      },
+      {
+        "name": "D07_HRB3",
+        "index": 270
+      },
+      {
+        "name": "N07_V1",
+        "index": 271
+      },
+      {
+        "name": "N07_V2",
+        "index": 272
+      },
+      {
+        "name": "N07_N",
+        "index": 273
+      },
+      {
+        "name": "N07_C0",
+        "index": 274
+      },
+      {
+        "name": "N07_O0",
+        "index": 275
+      },
+      {
+        "name": "N07_C3",
+        "index": 276
+      },
+      {
+        "name": "N07_C4",
+        "index": 277
+      },
+      {
+        "name": "N07_C5",
+        "index": 278
+      },
+      {
+        "name": "N07_HV11",
+        "index": 279
+      },
+      {
+        "name": "N07_HV12",
+        "index": 280
+      },
+      {
+        "name": "N07_HV2",
+        "index": 281
+      },
+      {
+        "name": "N07_H31",
+        "index": 282
+      },
+      {
+        "name": "N07_H32",
+        "index": 283
+      },
+      {
+        "name": "N07_H41",
+        "index": 284
+      },
+      {
+        "name": "N07_H42",
+        "index": 285
+      },
+      {
+        "name": "N07_H51",
+        "index": 286
+      },
+      {
+        "name": "N07_H52",
+        "index": 287
+      },
+      {
+        "name": "D08_B1",
+        "index": 288
+      },
+      {
+        "name": "D08_HB1",
+        "index": 289
+      },
+      {
+        "name": "D08_B2",
+        "index": 290
+      },
+      {
+        "name": "D08_HB2",
+        "index": 291
+      },
+      {
+        "name": "D08_CL",
+        "index": 292
+      },
+      {
+        "name": "D08_OLC",
+        "index": 293
+      },
+      {
+        "name": "D08_OLE",
+        "index": 294
+      },
+      {
+        "name": "D08_ELA",
+        "index": 295
+      },
+      {
+        "name": "D08_ELB",
+        "index": 296
+      },
+      {
+        "name": "D08_HLA1",
+        "index": 297
+      },
+      {
+        "name": "D08_HLA2",
+        "index": 298
+      },
+      {
+        "name": "D08_HLB1",
+        "index": 299
+      },
+      {
+        "name": "D08_HLB2",
+        "index": 300
+      },
+      {
+        "name": "D08_HLB3",
+        "index": 301
+      },
+      {
+        "name": "D08_CR",
+        "index": 302
+      },
+      {
+        "name": "D08_ORC",
+        "index": 303
+      },
+      {
+        "name": "D08_ORE",
+        "index": 304
+      },
+      {
+        "name": "D08_ERA",
+        "index": 305
+      },
+      {
+        "name": "D08_ERB",
+        "index": 306
+      },
+      {
+        "name": "D08_HRA1",
+        "index": 307
+      },
+      {
+        "name": "D08_HRA2",
+        "index": 308
+      },
+      {
+        "name": "D08_HRB1",
+        "index": 309
+      },
+      {
+        "name": "D08_HRB2",
+        "index": 310
+      },
+      {
+        "name": "D08_HRB3",
+        "index": 311
+      },
+      {
+        "name": "N08_V1",
+        "index": 312
+      },
+      {
+        "name": "N08_V2",
+        "index": 313
+      },
+      {
+        "name": "N08_N",
+        "index": 314
+      },
+      {
+        "name": "N08_C0",
+        "index": 315
+      },
+      {
+        "name": "N08_O0",
+        "index": 316
+      },
+      {
+        "name": "N08_C3",
+        "index": 317
+      },
+      {
+        "name": "N08_C4",
+        "index": 318
+      },
+      {
+        "name": "N08_C5",
+        "index": 319
+      },
+      {
+        "name": "N08_HV11",
+        "index": 320
+      },
+      {
+        "name": "N08_HV12",
+        "index": 321
+      },
+      {
+        "name": "N08_HV2",
+        "index": 322
+      },
+      {
+        "name": "N08_H31",
+        "index": 323
+      },
+      {
+        "name": "N08_H32",
+        "index": 324
+      },
+      {
+        "name": "N08_H41",
+        "index": 325
+      },
+      {
+        "name": "N08_H42",
+        "index": 326
+      },
+      {
+        "name": "N08_H51",
+        "index": 327
+      },
+      {
+        "name": "N08_H52",
+        "index": 328
+      },
+      {
+        "name": "D09_B1",
+        "index": 329
+      },
+      {
+        "name": "D09_HB1",
+        "index": 330
+      },
+      {
+        "name": "D09_B2",
+        "index": 331
+      },
+      {
+        "name": "D09_HB2",
+        "index": 332
+      },
+      {
+        "name": "D09_CL",
+        "index": 333
+      },
+      {
+        "name": "D09_OLC",
+        "index": 334
+      },
+      {
+        "name": "D09_OLE",
+        "index": 335
+      },
+      {
+        "name": "D09_ELA",
+        "index": 336
+      },
+      {
+        "name": "D09_ELB",
+        "index": 337
+      },
+      {
+        "name": "D09_HLA1",
+        "index": 338
+      },
+      {
+        "name": "D09_HLA2",
+        "index": 339
+      },
+      {
+        "name": "D09_HLB1",
+        "index": 340
+      },
+      {
+        "name": "D09_HLB2",
+        "index": 341
+      },
+      {
+        "name": "D09_HLB3",
+        "index": 342
+      },
+      {
+        "name": "D09_CR",
+        "index": 343
+      },
+      {
+        "name": "D09_ORC",
+        "index": 344
+      },
+      {
+        "name": "D09_ORE",
+        "index": 345
+      },
+      {
+        "name": "D09_ERA",
+        "index": 346
+      },
+      {
+        "name": "D09_ERB",
+        "index": 347
+      },
+      {
+        "name": "D09_HRA1",
+        "index": 348
+      },
+      {
+        "name": "D09_HRA2",
+        "index": 349
+      },
+      {
+        "name": "D09_HRB1",
+        "index": 350
+      },
+      {
+        "name": "D09_HRB2",
+        "index": 351
+      },
+      {
+        "name": "D09_HRB3",
+        "index": 352
+      },
+      {
+        "name": "N09_V1",
+        "index": 353
+      },
+      {
+        "name": "N09_V2",
+        "index": 354
+      },
+      {
+        "name": "N09_N",
+        "index": 355
+      },
+      {
+        "name": "N09_C0",
+        "index": 356
+      },
+      {
+        "name": "N09_O0",
+        "index": 357
+      },
+      {
+        "name": "N09_C3",
+        "index": 358
+      },
+      {
+        "name": "N09_C4",
+        "index": 359
+      },
+      {
+        "name": "N09_C5",
+        "index": 360
+      },
+      {
+        "name": "N09_HV11",
+        "index": 361
+      },
+      {
+        "name": "N09_HV12",
+        "index": 362
+      },
+      {
+        "name": "N09_HV2",
+        "index": 363
+      },
+      {
+        "name": "N09_H31",
+        "index": 364
+      },
+      {
+        "name": "N09_H32",
+        "index": 365
+      },
+      {
+        "name": "N09_H41",
+        "index": 366
+      },
+      {
+        "name": "N09_H42",
+        "index": 367
+      },
+      {
+        "name": "N09_H51",
+        "index": 368
+      },
+      {
+        "name": "N09_H52",
+        "index": 369
+      },
+      {
+        "name": "D10_B1",
+        "index": 370
+      },
+      {
+        "name": "D10_HB1",
+        "index": 371
+      },
+      {
+        "name": "D10_B2",
+        "index": 372
+      },
+      {
+        "name": "D10_HB2",
+        "index": 373
+      },
+      {
+        "name": "D10_CL",
+        "index": 374
+      },
+      {
+        "name": "D10_OLC",
+        "index": 375
+      },
+      {
+        "name": "D10_OLE",
+        "index": 376
+      },
+      {
+        "name": "D10_ELA",
+        "index": 377
+      },
+      {
+        "name": "D10_ELB",
+        "index": 378
+      },
+      {
+        "name": "D10_HLA1",
+        "index": 379
+      },
+      {
+        "name": "D10_HLA2",
+        "index": 380
+      },
+      {
+        "name": "D10_HLB1",
+        "index": 381
+      },
+      {
+        "name": "D10_HLB2",
+        "index": 382
+      },
+      {
+        "name": "D10_HLB3",
+        "index": 383
+      },
+      {
+        "name": "D10_CR",
+        "index": 384
+      },
+      {
+        "name": "D10_ORC",
+        "index": 385
+      },
+      {
+        "name": "D10_ORE",
+        "index": 386
+      },
+      {
+        "name": "D10_ERA",
+        "index": 387
+      },
+      {
+        "name": "D10_ERB",
+        "index": 388
+      },
+      {
+        "name": "D10_HRA1",
+        "index": 389
+      },
+      {
+        "name": "D10_HRA2",
+        "index": 390
+      },
+      {
+        "name": "D10_HRB1",
+        "index": 391
+      },
+      {
+        "name": "D10_HRB2",
+        "index": 392
+      },
+      {
+        "name": "D10_HRB3",
+        "index": 393
+      },
+      {
+        "name": "N10_V1",
+        "index": 394
+      },
+      {
+        "name": "N10_V2",
+        "index": 395
+      },
+      {
+        "name": "N10_N",
+        "index": 396
+      },
+      {
+        "name": "N10_C0",
+        "index": 397
+      },
+      {
+        "name": "N10_O0",
+        "index": 398
+      },
+      {
+        "name": "N10_C3",
+        "index": 399
+      },
+      {
+        "name": "N10_C4",
+        "index": 400
+      },
+      {
+        "name": "N10_C5",
+        "index": 401
+      },
+      {
+        "name": "N10_HV11",
+        "index": 402
+      },
+      {
+        "name": "N10_HV12",
+        "index": 403
+      },
+      {
+        "name": "N10_HV2",
+        "index": 404
+      },
+      {
+        "name": "N10_H31",
+        "index": 405
+      },
+      {
+        "name": "N10_H32",
+        "index": 406
+      },
+      {
+        "name": "N10_H41",
+        "index": 407
+      },
+      {
+        "name": "N10_H42",
+        "index": 408
+      },
+      {
+        "name": "N10_H51",
+        "index": 409
+      },
+      {
+        "name": "N10_H52",
+        "index": 410
+      },
+      {
+        "name": "TERM_START_H",
+        "index": 411
+      },
+      {
+        "name": "TERM_END_H",
+        "index": 412
+      }
+    ],
+    "terminal_hydrogens": [
+      {
+        "name": "TERM_START_H",
+        "index": 411
+      },
+      {
+        "name": "TERM_END_H",
+        "index": 412
+      }
+    ]
+  },
+  "parameterization_gate": {
+    "required_method": "GAFF2 atom types and whole-chain AM1-BCC charges",
+    "required_checks": [
+      "net chain charge equals zero",
+      "final topology atom order agrees with this map",
+      "all missing parmchk2 terms are reviewed",
+      "GROMACS grompp accepts final topology without maxwarn"
+    ],
+    "forbidden_shortcut": "Do not concatenate independent unsaturated DEM and NVP monomer topologies."
+  }
+}

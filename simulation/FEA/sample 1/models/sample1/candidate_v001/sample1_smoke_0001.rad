@@ -1,0 +1,17 @@
+# Candidate smoke Engine. Physical duration 0.5 ms; no solver has run.
+/RUN/sample1_smoke/1
+              0.0005
+/VERS/2022
+/PRINT/-1000
+/TFILE
+               1e-06
+/ANIM/DT
+                   0               5e-06
+/ANIM/VECT/DISP
+/ANIM/VECT/VEL
+/ANIM/VECT/CONT
+/ANIM/BRICK/VONM
+/ANIM/BRICK/TENS/STRESS
+/ANIM/BRICK/TENS/STRAIN
+/ANIM/BRICK/DENS
+/STOP

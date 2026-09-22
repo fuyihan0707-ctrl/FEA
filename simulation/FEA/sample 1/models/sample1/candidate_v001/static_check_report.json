@@ -1,0 +1,33 @@
+{
+  "status": "static_checks_passed_solver_pending",
+  "solver_executed": false,
+  "errors": [],
+  "warnings": [
+    "Static subset checks only; Linux keyword acceptance and LAW69 fitting remain unverified.",
+    "40% thickness compression is not automatically limited; reject runs exceeding it.",
+    "First maximum compression may fall outside 0.5 ms.",
+    "Gel dissipation is uncalibrated; numerical viscosity and contact damping are not material damping.",
+    "Contact-gap, penalty stiffness, ball faceting and mesh sensitivity remain untested."
+  ],
+  "checks": {
+    "gel_elements": 2304,
+    "gel_nodes": 3125,
+    "ball_surface_elements": 1536,
+    "total_nodes": 4664,
+    "bonded_nodes": 625,
+    "top_contact_nodes": 625,
+    "minimum_gauss_jacobian_mm3": 0.021701388887152707,
+    "gel_volume_mm3": 400.0000000000623,
+    "gel_mass_g": 0.4400000000000685,
+    "ball_mass_g": 20.0,
+    "geometric_clearance_mm": 0.10000000000000009,
+    "numerical_contact_gap_mm": 0.025,
+    "duration_ms": 0.5
+  },
+  "artifact_sha256": {
+    "sample1_smoke_0000.rad": "f5c62af589cc5cd97e76d944e08c854b061cdb073de050898624a6444b8eb104",
+    "sample1_smoke_0001.rad": "2a684f47123b524757542c27f069b5f96903743c569592c04883c04ffb99c22b",
+    "frozen_config.json": "bdc96ad39331774fcb046b62dc383e6af75a148437ed30e059b6bb2c28c5b320",
+    "material_curve.csv": "acb0b6c3f5926a13060b56ccb26da15d6e88248f5b4dcf899cc3bd2e7efcf66a"
+  }
+}

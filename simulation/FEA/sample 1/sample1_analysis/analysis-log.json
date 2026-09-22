@@ -1,0 +1,155 @@
+{
+  "status": "units_confirmed_engineering_definition_assumed_for_preliminary_analysis",
+  "density_as_provided": 1.1,
+  "density_unit": "g/cm^3",
+  "density_kg_m3": 1100.0,
+  "stress_unit": "MPa",
+  "strain_unit": "mm/mm",
+  "engineering_or_true": "engineering_assumed_not_explicitly_confirmed",
+  "poisson_ratio": 0.49,
+  "processing": "Raw row order preserved; no smoothing, zero correction, unit conversion, or truncation.",
+  "curves": {
+    "compress": {
+      "source": "/Users/mac/Documents/ChatGPT/计算/FEA/sample1-compress.rtf",
+      "source_sha256": "0411f839bc7ed43abe763dadab8873e30187c0113da858759992af0f4451ce5e",
+      "header": "IG应变\t应力",
+      "crosshead_speed_mm_s": 5.0,
+      "strain_rate_s_inverse": null,
+      "row_count": 2865,
+      "first_point": [
+        0.0,
+        0.0
+      ],
+      "last_point": [
+        0.40283,
+        34.66825
+      ],
+      "maximum_stress_point": [
+        0.40283,
+        34.66825
+      ],
+      "maximum_stress_row_1based": 2865,
+      "maximum_recorded_strain_percent": 40.283,
+      "stress_at_selected_strain_MPa": {
+        "0.01": 0.008584444444444445,
+        "0.02": 0.036780769230769235,
+        "0.05": 0.30582000000000004,
+        "0.1": 2.5736635714285723,
+        "0.2": 12.69447230769231,
+        "0.3": 23.610306666666666,
+        "0.4": 34.358881764705885
+      },
+      "decreasing_strain_steps": 0,
+      "duplicate_strain_steps": 0,
+      "initial_linear_fit_sensitivity_raw_units": [
+        {
+          "strain_window": [
+            0.0,
+            0.01
+          ],
+          "slope": 0.7832563601606503,
+          "intercept": -0.0005316477539289995,
+          "n_points": 71
+        },
+        {
+          "strain_window": [
+            0.01,
+            0.03
+          ],
+          "slope": 3.983809240911741,
+          "intercept": -0.03786134977184714,
+          "n_points": 144
+        },
+        {
+          "strain_window": [
+            0.03,
+            0.05
+          ],
+          "slope": 9.889257899530357,
+          "intercept": -0.20231662604934,
+          "n_points": 144
+        },
+        {
+          "strain_window": [
+            0.05,
+            0.1
+          ],
+          "slope": 45.270039305991126,
+          "intercept": -2.2381916622068188,
+          "n_points": 365
+        }
+      ]
+    },
+    "strain": {
+      "source": "/Users/mac/Documents/ChatGPT/计算/FEA/sample1-strain.rtf",
+      "source_sha256": "06b44bbd5fe2e2188b9707dbc5ab4e56c8cf4539ef25ff984b14e5c24c97c595",
+      "header": "应变_5\t应力_5",
+      "crosshead_speed_mm_s": 10.0,
+      "strain_rate_s_inverse": null,
+      "row_count": 10199,
+      "first_point": [
+        0.00019,
+        0.26233
+      ],
+      "last_point": [
+        15.33247,
+        0.28578
+      ],
+      "maximum_stress_point": [
+        14.67395,
+        27.51867
+      ],
+      "maximum_stress_row_1based": 9761,
+      "maximum_recorded_strain_percent": 1533.247,
+      "stress_at_selected_strain_MPa": {
+        "0.01": 0.42313375000000003,
+        "0.02": 0.614879411764706,
+        "0.05": 1.0601611409395975,
+        "0.1": 1.6646240127388534,
+        "0.2": 2.5250435031847136,
+        "0.3": 3.2376171428571427,
+        "0.4": 3.7556100000000003
+      },
+      "decreasing_strain_steps": 0,
+      "duplicate_strain_steps": 0,
+      "initial_linear_fit_sensitivity_raw_units": [
+        {
+          "strain_window": [
+            0.0,
+            0.01
+          ],
+          "slope": 16.041193805691094,
+          "intercept": 0.24432235142200207,
+          "n_points": 7
+        },
+        {
+          "strain_window": [
+            0.01,
+            0.03
+          ],
+          "slope": 16.87402889932102,
+          "intercept": 0.2705564994739715,
+          "n_points": 14
+        },
+        {
+          "strain_window": [
+            0.03,
+            0.05
+          ],
+          "slope": 14.912236009700349,
+          "intercept": 0.3231190413151537,
+          "n_points": 13
+        },
+        {
+          "strain_window": [
+            0.05,
+            0.1
+          ],
+          "slope": 12.109136636051266,
+          "intercept": 0.4730387869442779,
+          "n_points": 33
+        }
+      ]
+    }
+  }
+}

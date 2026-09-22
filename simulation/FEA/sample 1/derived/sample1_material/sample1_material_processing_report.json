@@ -1,0 +1,71 @@
+{
+  "case_id": "sample1_drop_impact_dryrun",
+  "status": "derived_material_files_written",
+  "write_requested": true,
+  "config_path": "config/sample1_dryrun.json",
+  "curves": [
+    {
+      "name": "compression",
+      "source_path": "sample1-compress.rtf",
+      "source_sha256": "0411f839bc7ed43abe763dadab8873e30187c0113da858759992af0f4451ce5e",
+      "row_count": 2865,
+      "units": {
+        "strain": "mm/mm",
+        "stress": "MPa"
+      },
+      "processing": "subtract first recorded strain and stress",
+      "subtracted_offset": {
+        "strain_mm_per_mm": 0.0,
+        "stress_mpa": 0.0
+      },
+      "first_corrected_point": [
+        0.0,
+        0.0
+      ],
+      "maximum_corrected_stress_mpa": 34.66825,
+      "strain_at_maximum_corrected_stress_mm_per_mm": 0.40283,
+      "post_peak_data_preserved": true,
+      "smoothing": "none",
+      "solver_ready": false
+    },
+    {
+      "name": "tension",
+      "source_path": "sample1-strain.rtf",
+      "source_sha256": "06b44bbd5fe2e2188b9707dbc5ab4e56c8cf4539ef25ff984b14e5c24c97c595",
+      "row_count": 10199,
+      "units": {
+        "strain": "mm/mm",
+        "stress": "MPa"
+      },
+      "processing": "subtract first recorded strain and stress",
+      "subtracted_offset": {
+        "strain_mm_per_mm": 0.00019,
+        "stress_mpa": 0.26233
+      },
+      "first_corrected_point": [
+        0.0,
+        0.0
+      ],
+      "maximum_corrected_stress_mpa": 27.25634,
+      "strain_at_maximum_corrected_stress_mm_per_mm": 14.67376,
+      "post_peak_data_preserved": true,
+      "smoothing": "none",
+      "solver_ready": false
+    }
+  ],
+  "source_measure": {
+    "stress": "engineering_confirmed_by_user",
+    "strain": "engineering_confirmed_by_user"
+  },
+  "combined_curve": {
+    "convention": "tension positive; compression negative",
+    "row_count": 13063,
+    "smoothing": "none",
+    "fit_status": "review required before constitutive fitting"
+  },
+  "limitations": [
+    "Compression and tension use different nominal crosshead speeds.",
+    "The combined curve is not evidence of rate-independent material behaviour.",
+    "The post-peak tensile region is preserved for traceability but is not approved as a hyperelastic-fit input."
+  ]
+}

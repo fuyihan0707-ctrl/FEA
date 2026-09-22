@@ -1,0 +1,35 @@
+{
+  "case_id": "dem_nvp_alt_10x4_323K_60wt",
+  "temperature_K": 323.15,
+  "pressure_bar": 1.0,
+  "polymer": {
+    "sequence": ["DEM", "NVP"],
+    "repeat_pairs_per_chain": 10,
+    "chain_count": 4,
+    "chain_termini": "hydrogen_capped",
+    "terminal_mass_g_mol_per_chain": 2.016,
+    "monomer_formulae": {
+      "DEM": {"C": 8, "H": 12, "O": 4},
+      "NVP": {"C": 6, "H": 9, "N": 1, "O": 1}
+    }
+  },
+  "solvent": {
+    "water_model": "TIP3P",
+    "water_formula": {"H": 2, "O": 1},
+    "polymer_mass_fraction": 0.60,
+    "ions": "none"
+  },
+  "packing": {
+    "initial_box_length_nm": 3.2,
+    "packmol_tolerance_angstrom": 2.0,
+    "seed": 13052
+  },
+  "simulation": {
+    "equilibration_nvt_ps": 200,
+    "equilibration_npt_ps": 2000,
+    "production_block_ns": 20,
+    "maximum_production_ns": 100,
+    "trajectory_interval_ps": 20,
+    "velocity_seed": 13053
+  }
+}

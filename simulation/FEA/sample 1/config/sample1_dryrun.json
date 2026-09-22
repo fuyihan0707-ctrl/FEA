@@ -1,0 +1,152 @@
+{
+  "case_id": "sample1_drop_impact_dryrun",
+  "metadata": {
+    "author": "Codex",
+    "created_date": "2026-09-18",
+    "last_modified_date": "2026-09-20",
+    "status": "candidate_deck_pending_linux_starter"
+  },
+  "purpose": "Prepare a traceable OpenRadioss drop-impact model for sample1. The intended outputs are contact force history and stress contours at the first maximum compression displacement.",
+  "units": {
+    "length": "mm",
+    "time": "s",
+    "mass": "tonne",
+    "force": "N",
+    "stress": "MPa",
+    "density": "tonne/mm^3",
+    "note": "This is a consistent mm-s-tonne-N-MPa system. All solver values must use these units."
+  },
+  "source_data": {
+    "compression_rtf": "sample1-compress.rtf",
+    "tension_rtf": "sample1-strain.rtf",
+    "compression_crosshead_speed_mm_s": 5.0,
+    "tension_crosshead_speed_mm_s": 10.0,
+    "stress_unit": "MPa",
+    "strain_unit": "mm/mm",
+    "stress_measure": "engineering_confirmed_by_user",
+    "strain_measure": "engineering_confirmed_by_user"
+  },
+  "data_processing": {
+    "offset_correction": "subtract_first_recorded_strain_and_stress_from_each_source_curve",
+    "compression_sign_convention": "compression_is_negative_in_combined_curve",
+    "tension_sign_convention": "tension_is_positive_in_combined_curve",
+    "smoothing": "none",
+    "post_peak_tension": "retain_in_derived_record_but_exclude_from_hyperelastic_fit_until_explicitly_approved"
+  },
+  "sample": {
+    "length_mm": 20.0,
+    "width_mm": 20.0,
+    "thickness_mm": 1.0,
+    "density_tonne_mm3": 1.1e-9,
+    "poisson_ratio": 0.49,
+    "coordinate_system": "x_and_y_span_0_to_20_mm; z_spans_0_to_1_mm_from_bonded_bottom_face_to_top_face"
+  },
+  "support": {
+    "type": "perfect_full_bottom_face_bond_to_rigid_substrate",
+    "constraint": "fix_translation_x_y_z_of_all_bottom_face_nodes",
+    "explicit_substrate_mesh": false,
+    "assumptions": [
+      "substrate_deformation_is_negligible",
+      "adhesive_deformation_is_negligible",
+      "no_debonding"
+    ]
+  },
+  "impactor": {
+    "type": "rigid_solid_steel_sphere",
+    "mass_tonne": 2.0e-5,
+    "nominal_steel_density_tonne_mm3": 7.85e-9,
+    "diameter_mm": 16.945,
+    "drop_height_mm": 200.0,
+    "contact_speed_mm_s": 1980.57,
+    "speed_definition": "ideal_free_fall_speed_at_first_contact_without_air_drag",
+    "initial_ball_to_sample_top_surface_gap_mm": 0.1,
+    "initial_placement": "sphere_bottom_is_0p10_mm_above_the_sample_top_surface; the_initial_velocity_is_downward_along_negative_z",
+    "gap_rationale": "small_positive_clearance_avoids_initial_contact_overlap_while_retaining_the_ideal_contact_speed"
+  },
+  "contact": {
+    "ball_sample": "frictionless",
+    "friction_coefficient": 0.0,
+    "sample_substrate": "perfect_bond_represented_by_bottom_face_constraints"
+  },
+  "deformation_limit": {
+    "definition": "local_thickness_beneath_ball_must_not_fall_below_60_percent_of_initial_thickness",
+    "initial_thickness_mm": 1.0,
+    "minimum_allowed_thickness_mm": 0.6,
+    "maximum_allowed_local_thickness_compression_fraction": 0.4,
+    "diagnostic": "also_monitor_local_principal_strain_but_do_not_use_it_as_the_pass_fail_definition"
+  },
+  "smoke_test_mesh": {
+    "element_type": "structured_8_node_hexahedra",
+    "elements_x": 24,
+    "elements_y": 24,
+    "elements_z": 4,
+    "total_elements": 2304,
+    "in_plane_element_size_mm": 0.8333333333,
+    "through_thickness_element_size_mm": 0.25,
+    "purpose": "minimum_mesh_for_a_bounded_Linux_Starter_and_Engine_smoke_test_of_the_model_generation_contact_force_and_requested_output_chain",
+    "use_for_thesis_figures": false,
+    "limitation": "qualitative_contact_and_stress_check_only; a_finer_mesh_and_mesh_sensitivity_study_are_required_before_production_results"
+  },
+  "outputs": {
+    "contact_force_history": "ball_sample_normal_contact_force_vs_time",
+    "snapshot": "first_local_minimum_of_ball_vertical_position_after_first_contact",
+    "snapshot_record": "record_snapshot_time_s_and_ball_displacement_mm_for_each_sample",
+    "views": [
+      "front_view_looking_along_negative_z_at_the_top_surface",
+      "x_z_centre_section_at_y_equals_10_mm_through_impact_axis"
+    ],
+    "stress_scalar": "von_mises_stress_mpa",
+    "comparison_colormap": "use_one_fixed_range_after_both_runs_are_available"
+  },
+  "material_model": {
+    "status": "compression_priority_calibration_table_pending_starter_verification",
+    "candidate": "OpenRadioss_LAW69_hyperelastic_curve_fit_to_0_to_40_percent_compression_engineering_curve",
+    "candidate_input": "derived/sample1_material/sample1_law69_compression_calibration.csv",
+    "calibration_protocol": "isotonic_monotonic_regression_then_uniform_0p005_engineering_strain_resampling_of_measured_0_to_0p40_compression",
+    "rate_dependence": "not_calibrated; any_first_model_will_assume_rate_independent_response",
+    "solver_deck_generation_allowed": true,
+    "generation_scope": "candidate_only_not_production",
+    "law_id": 1,
+    "ogden_parameter_pairs": 2,
+    "icheck": -3
+  },
+  "candidate_numerics": {
+    "input_format_version": 2022,
+    "run_name": "sample1_smoke",
+    "end_time_s": 0.0005,
+    "history_interval_s": 0.000001,
+    "animation_interval_s": 0.000005,
+    "gravity_in_short_impact_window": false,
+    "mass_scaling": false,
+    "solid_formulation": 14,
+    "solid_strain_formulation": 10,
+    "constant_pressure_flag": 1,
+    "solid_integration_points": 222,
+    "quadratic_bulk_viscosity": 1.1,
+    "linear_bulk_viscosity": 0.05,
+    "ball_cube_face_subdivisions": 16,
+    "ball_carrier_shell_thickness_mm": 0.1,
+    "ball_carrier_young_modulus_mpa": 210000.0,
+    "ball_carrier_poisson_ratio": 0.3,
+    "rigid_body_icog": 4,
+    "interface_type": 7,
+    "interface_stiffness_flag": 4,
+    "interface_stiffness_scale": 1.0,
+    "interface_gap_mm": 0.025,
+    "interface_normal_damping": 0.05,
+    "note": "Implementation choices for the authorized candidate; these numerical coefficients are not measured gel properties. Linux verification and contact sensitivity remain required."
+  },
+  "execution": {
+    "solver": "OpenRadioss",
+    "platform": "Linux_server",
+    "version": "pending_installation",
+    "starter_command": "pending_installation",
+    "engine_command": "pending_installation"
+  },
+  "related_documents": [
+    "README.md",
+    "AGENTS.md",
+    "PROJECT_RULES.md",
+    "KNOWLEDGE_BASE.md"
+  ]
+}
